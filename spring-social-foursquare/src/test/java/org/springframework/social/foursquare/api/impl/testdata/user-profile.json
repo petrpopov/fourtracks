@@ -1,0 +1,302 @@
+{
+   "meta":{
+      "code":200
+   },
+   "notifications":[
+      {
+         "type":"notificationTray",
+         "item":{
+            "unreadCount":1
+         }
+      }
+   ],
+   "response":{
+      "user":{
+         "id":"700390",
+         "firstName":"Matt",
+         "lastName":"Wright",
+         "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/OGGQATTYHOGWJL4E.jpg",
+         "gender":"male",
+         "homeCity":"New York",
+         "relationship":"self",
+         "type":"user",
+         "pings":false,
+         "contact":{
+            "email":"mdw1980@gmail.com",
+            "twitter":"mattupstate"
+         },
+         "badges":{
+            "count":22
+         },
+         "mayorships":{
+            "count":3,
+            "items":[
+               {
+                  "id":"4a8030abf964a520bcf41fe3",
+                  "name":"Syrup",
+                  "contact":{
+                     "phone":"2126801477",
+                     "formattedPhone":"(212) 680-1477"
+                  },
+                  "location":{
+                     "address":"12 Vestry St.",
+                     "crossStreet":"Hudson Street",
+                     "lat":40.72271631,
+                     "lng":-74.0070339,
+                     "postalCode":"10013",
+                     "city":"New York",
+                     "state":"NY",
+                     "country":"USA"
+                  },
+                  "categories":[
+                     {
+                        "id":"4bf58dd8d48988d124941735",
+                        "name":"Office",
+                        "pluralName":"Offices",
+                        "shortName":"Corporate / Office",
+                        "icon":"https://foursquare.com/img/categories/building/default.png",
+                        "parents":[
+                           "Professional & Other Places"
+                        ],
+                        "primary":true
+                     }
+                  ],
+                  "verified":false,
+                  "stats":{
+                     "checkinsCount":253,
+                     "usersCount":49,
+                     "tipCount":2
+                  }
+               },
+               {
+                  "id":"4d67f3cca800721e90af15b8",
+                  "name":"Rainageddon",
+                  "contact":{
+
+                  },
+                  "location":{
+                     "lat":40.723536,
+                     "lng":-74.008097,
+                     "state":"New York"
+                  },
+                  "categories":[
+
+                  ],
+                  "verified":false,
+                  "stats":{
+                     "checkinsCount":8,
+                     "usersCount":6,
+                     "tipCount":0
+                  }
+               },
+               {
+                  "id":"4c439f9af0bdd13a4d88c8cc",
+                  "name":"355 5th Ave Roof",
+                  "contact":{
+
+                  },
+                  "location":{
+                     "address":"355 5th Ave",
+                     "lat":40.671622,
+                     "lng":-73.983891,
+                     "postalCode":"11215",
+                     "city":"Brooklyn",
+                     "state":"New York"
+                  },
+                  "categories":[
+                     {
+                        "id":"4bf58dd8d48988d103941735",
+                        "name":"Home",
+                        "pluralName":"Homes",
+                        "shortName":"Home",
+                        "icon":"https://foursquare.com/img/categories/building/home.png",
+                        "parents":[
+                           "Residences"
+                        ],
+                        "primary":true
+                     }
+                  ],
+                  "verified":false,
+                  "stats":{
+                     "checkinsCount":5,
+                     "usersCount":2,
+                     "tipCount":0
+                  }
+               }
+            ]
+         },
+         "checkins":{
+            "count":659,
+            "items":[
+               {
+                  "id":"4e5536f688770c1e52343650",
+                  "createdAt":1314207478,
+                  "type":"checkin",
+                  "timeZone":"America/New_York",
+                  "venue":{
+                     "id":"4d656fda129d60fc94cb13c2",
+                     "name":"BMW Guggenheim Lab",
+                     "contact":{
+                        "twitter":"bmwgugglab"
+                     },
+                     "location":{
+                        "address":"First Park | Houston at 2nd Ave",
+                        "lat":40.72387636454214,
+                        "lng":-73.99063467979431,
+                        "postalCode":"10003",
+                        "city":"New York",
+                        "state":"NY"
+                     },
+                     "categories":[
+                        {
+                           "id":"4bf58dd8d48988d171941735",
+                           "name":"Event Space",
+                           "pluralName":"Event Spaces",
+                           "shortName":"Event Space",
+                           "icon":"https://foursquare.com/img/categories/building/default.png",
+                           "parents":[
+                              "Professional & Other Places"
+                           ],
+                           "primary":true
+                        }
+                     ],
+                     "verified":true,
+                     "stats":{
+                        "checkinsCount":1225,
+                        "usersCount":931,
+                        "tipCount":2
+                     },
+                     "url":"http://bmwguggenheimlab.org"
+                  }
+               }
+            ]
+         },
+         "friends":{
+            "count":25,
+            "groups":[
+               {
+                  "type":"friends",
+                  "name":"Mutual friends",
+                  "count":0,
+                  "items":[
+
+                  ]
+               },
+               {
+                  "type":"others",
+                  "name":"Other friends",
+                  "count":25,
+                  "items":[
+                     {
+                        "id":"25718",
+                        "firstName":"Elad",
+                        "lastName":"Elrom",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/550YBSH5ENUEL0LE.jpg",
+                        "gender":"male",
+                        "homeCity":"New York, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"7785706",
+                        "firstName":"Emily",
+                        "lastName":"Lohmann",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/QSLUKN5RE32KN4NF.jpg",
+                        "gender":"female",
+                        "homeCity":"Brooklyn, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"34534",
+                        "firstName":"Jesse",
+                        "lastName":"Freeman",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/LGJHFFAIALFXXH2D.png",
+                        "gender":"male",
+                        "homeCity":"Brooklyn, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"6061196",
+                        "firstName":"Matt",
+                        "lastName":"Lohmann",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/BM2PSQOSZ4XFMT4G.jpg",
+                        "gender":"male",
+                        "homeCity":"Brooklyn, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"3839677",
+                        "firstName":"Diana",
+                        "lastName":"Mandelare",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/VJRYU3BCKIMPNBHQ.jpg",
+                        "gender":"female",
+                        "homeCity":"New York, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"1541584",
+                        "firstName":"Trey",
+                        "lastName":"Studley",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/SG4N2FSYJIIIYEWN.jpg",
+                        "gender":"male",
+                        "homeCity":"New York, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"527",
+                        "firstName":"Crystal",
+                        "lastName":"Ginn",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/527_1236920910.jpg",
+                        "gender":"female",
+                        "homeCity":"New York, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"7266063",
+                        "firstName":"Mustafa",
+                        "lastName":"Demirkent",
+                        "photo":"https://foursquare.com/img/blank_boy.png",
+                        "gender":"male",
+                        "homeCity":"New York, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"3795696",
+                        "firstName":"smo",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/BKXN23XSF2GXG0ZG.png",
+                        "gender":"male",
+                        "homeCity":"Brooklyn, NY",
+                        "relationship":"friend"
+                     },
+                     {
+                        "id":"3339694",
+                        "firstName":"Dennis",
+                        "lastName":"Unlucky",
+                        "photo":"https://playfoursquare.s3.amazonaws.com/userpix_thumbs/DRBBDQEWVBDQ3RYT.jpg",
+                        "gender":"male",
+                        "homeCity":"Kihei, HI",
+                        "relationship":"friend"
+                     }
+                  ]
+               }
+            ]
+         },
+         "following":{
+            "count":0
+         },
+         "requests":{
+            "count":0
+         },
+         "tips":{
+            "count":3
+         },
+         "todos":{
+            "count":2
+         },
+         "scores":{
+            "recent":0,
+            "max":116,
+            "checkinsCount":0
+         }
+      }
+   }
+}
