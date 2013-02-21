@@ -2,85 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/CheckinEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/CheckinEntityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUserPhoto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Icon.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_1_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__fi_foyt_foursquare_api_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/ApiRequestResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/CheckinCustom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/CheckinInfoContainerCustom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/CheckinInfoContainerDeserializerCustom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/CheckinInfoCustom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/custom/VenueCustom.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/beans/UserService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/UserEntityService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/model/User.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/UserEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/FoursquareDefaultBean.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/FoursquareDefaultBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/SocialConfig.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/profile.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/AbstractFoursquareApiTest.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/AbstractFoursquareApiTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/json/AbstractFoursquareDeserializer.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/json/AbstractFoursquareDeserializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Badge.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Badge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeGroup.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeImage.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeSets.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeSets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeUnlocks.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgeUnlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgesResponse.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/BadgesResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Category.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinComment.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinCommentInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinCommentInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/json/CheckinInfoContainerDeserializer.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/json/CheckinInfoContainerDeserializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinSource.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/ContactInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/ContactInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/ExploreResponse.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/ExploreResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/connect/FoursquareAdapter.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/connect/FoursquareAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUser.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUserGroup.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUserGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FriendInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FriendInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Friends.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Friends.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/HereNow.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/HereNow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Keyword.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Keyword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Keywords.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Keywords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Leaderboard.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Leaderboard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/LeaderboardItem.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/LeaderboardItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Location.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/LoginManager.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/LoginManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/MayorshipInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/MayorshipInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyInterceptor.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyUserDetailsService.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyUserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Photo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Photo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoGroup.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoGroups.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoGroups.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSize.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSizes.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSizes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSource.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Photos.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Photos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/UserAssembler.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/UserAssembler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/UserOperations.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/UserOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/UserTemplate.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/UserTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/UserTemplateTest.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/UserTemplateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/VenueStats.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/VenueStats.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/VenueTemplateTest.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/test/java/org/springframework/social/foursquare/api/impl/VenueTemplateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/VenueTips.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/VenueTips.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/header.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/pom.xml" afterPath="$PROJECT_DIR$/yourtracker-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/pom.xml" afterPath="$PROJECT_DIR$/yourtracker-war/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/views.xml" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/views.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" afterPath="$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/yourtracker-war.iml" afterPath="$PROJECT_DIR$/yourtracker-war/yourtracker-war.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/yourtracker_war_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/yourtracker_war_war_exploded.xml" />
     </list>
     <ignored path="yourtracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +23,7 @@
     <file path="/header.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361458290958" ignored="false" />
     <file path="/signin.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360931267595" ignored="false" />
     <file path="/LoginController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360915209263" ignored="false" />
-    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361460549258" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361460596935" ignored="false" />
     <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361458757867" ignored="false" />
     <file path="/FsApiManager.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360650642589" ignored="false" />
     <file path="/AppSettings.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360661178477" ignored="false" />
@@ -252,10 +174,8 @@
       <file leaf-file-name="ProfileController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="27" column="5" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1296,6 +1216,11 @@
       <created>1360598128920</created>
       <updated>1360598128920</updated>
     </task>
+    <task id="LOCAL-00001" summary="finally, checkins are working">
+      <created>1361460703223</created>
+      <updated>1361460703223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1392,7 +1317,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="finally, checkins are working" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -1491,10 +1416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="5" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
