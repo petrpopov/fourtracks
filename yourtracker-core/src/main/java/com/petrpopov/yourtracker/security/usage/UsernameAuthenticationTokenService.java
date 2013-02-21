@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.usage;
 
 import org.springframework.security.authentication.RememberMeAuthenticationToken;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,5 +1,6 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.web;
 
+import com.petrpopov.yourtracker.security.usage.UsernameAuthenticationTokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.RememberMeAuthenticationToken;
@@ -24,10 +25,10 @@ import java.io.IOException;
  * Time: 18:37
  */
 @Component
-public class MyRememberFilter extends GenericFilterBean{
+public class TracksRememberFilter extends GenericFilterBean{
 
     @Autowired
-    private MyRememberMeServices rememberMeServices;
+    private TracksRememberMeServices rememberMeServices;
 
     @Autowired
     private AuthenticationManager authenticationManager;
@@ -35,7 +36,7 @@ public class MyRememberFilter extends GenericFilterBean{
     @Autowired
     private UsernameAuthenticationTokenService usernameAuthenticationTokenService;
 
-    public MyRememberFilter() {
+    public TracksRememberFilter() {
     }
 
     @Override

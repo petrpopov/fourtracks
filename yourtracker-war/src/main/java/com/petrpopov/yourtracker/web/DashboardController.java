@@ -15,7 +15,7 @@ import java.util.Map;
  * Time: 19:38
  */
 @Controller
-public class ProfileController {
+public class DashboardController {
 
     @Autowired
     private Foursquare api;

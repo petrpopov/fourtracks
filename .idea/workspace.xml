@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="">
+    <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="finally, checkins are working">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/TracksException.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/CallbackController.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/AuthProvider.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/FoursquareConnection.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/FoursquareConnectionFieldHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/FoursquareService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/FoursquareService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/LoginManager.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/MongoAccountConnectionSignUp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyInterceptor.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/NoFoursquareConnectionInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyRememberFilter.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyRememberMeServices.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberMeServices.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyTextEncryptor.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/TracksTextEncryptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyUserDetailsService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/UserAssembler.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/UserDetailsAssembler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/UserFildService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/UserDetailsFieldHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/UsernameAuthenticationTokenService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/UsernameAuthenticationTokenService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml" />
     </list>
     <ignored path="yourtracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +32,7 @@
     <file path="/log4j.properties" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360601472818" ignored="false" />
     <file path="/HelloBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360660693504" ignored="false" />
     <file path="/Test.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360606520066" ignored="false" />
-    <file path="/yourtracker-servlet.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361299286079" ignored="false" />
+    <file path="/yourtracker-servlet.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361461762968" ignored="false" />
     <file path="/HomeController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360746055128" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360608198000" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360608198000" ignored="false" />
@@ -23,8 +43,8 @@
     <file path="/header.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361458290958" ignored="false" />
     <file path="/signin.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360931267595" ignored="false" />
     <file path="/LoginController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360915209263" ignored="false" />
-    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361460596935" ignored="false" />
-    <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361458757867" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361460741071" ignored="false" />
+    <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361464071087" ignored="false" />
     <file path="/FsApiManager.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360650642589" ignored="false" />
     <file path="/AppSettings.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360661178477" ignored="false" />
     <file path="/InitBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360671147275" ignored="false" />
@@ -43,7 +63,7 @@
     <file path="$PROJECT_DIR$/../spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/VenueOperations.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360740352070" ignored="false" />
     <file path="$PROJECT_DIR$/../spring-social-foursquare/pom.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360742272445" ignored="false" />
     <file path="/SocialConfig.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361297682605" ignored="false" />
-    <file path="/security.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361180049300" ignored="false" />
+    <file path="/security.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463900901" ignored="false" />
     <file path="/login.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360820305586" ignored="false" />
     <file path="/RememberMe.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360838431118" ignored="false" />
     <file path="/AuthProvider.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361196752879" ignored="false" />
@@ -53,7 +73,7 @@
     <file path="/__dummy.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360838397414" ignored="false" />
     <file path="/MyRememberFilter.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361197664794" ignored="false" />
     <file path="/RememberMeServices.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360855249078" ignored="false" />
-    <file path="/MyRememberMeServices.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361215002977" ignored="false" />
+    <file path="/MyRememberMeServices.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463892949" ignored="false" />
     <file path="/FoursquareService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360916331190" ignored="false" />
     <file path="/FoursquareConfig.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360914154585" ignored="false" />
     <file path="/MongoDbConnectionRepository.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360933572615" ignored="false" />
@@ -107,6 +127,9 @@
     <file path="/FoursquareUserPhoto.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361446569386" ignored="false" />
     <file path="/FoursquareUser.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361447122589" ignored="false" />
     <file path="/ContactInfo.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361447343894" ignored="false" />
+    <file path="/FoursquareConnectionFieldHandler.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361461652942" ignored="false" />
+    <file path="/NoFoursquareConnectionInterceptor.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463545231" ignored="false" />
+    <file path="/TracksException.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463288144" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,57 +194,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProfileController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java">
+      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="32" column="40" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocialController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java">
+      <file leaf-file-name="AuthProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="9" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotoSource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MayorshipInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/MayorshipInfo.java">
+      <file leaf-file-name="LoginManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserOperations.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/UserOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="11" selection-start="7162" selection-end="7162" vertical-scroll-proportion="0.3322785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallbackController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/CallbackController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+            <state line="2" column="45" selection-start="94" selection-end="94" vertical-scroll-proportion="-0.36695278">
               <folding />
             </state>
           </provider>
@@ -245,22 +239,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/ContactInfo.java" />
-        <option value="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Photo.java" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/views.xml" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/header.jsp" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/AuthProvider.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/UserService.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/UserEntityService.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/service/UserEntityService.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/model/CheckinEntity.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/CheckinEntityService.java" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/LoginManager.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/pom.xml" />
-        <option value="$PROJECT_DIR$/yourtracker-war/pom.xml" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/usage/UserDetailsFieldHandler.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/usage/UserDetailsAssembler.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/usage/FoursquareConnectionFieldHandler.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml" />
+        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/TracksException.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/NoFoursquareConnectionInterceptor.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberFilter.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/MyRememberMeServices.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberMeServices.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/TracksTextEncryptor.java" />
+        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/AuthProvider.java" />
+        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java" />
       </list>
     </option>
   </component>
@@ -548,40 +542,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yourtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yourtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yourtracker-war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -650,7 +610,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,6 +699,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -899,7 +931,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -1220,7 +1252,11 @@
       <created>1361460703223</created>
       <updated>1361460703223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finally, checkins are working">
+      <created>1361460736237</created>
+      <updated>1361460736237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1261,14 +1297,14 @@
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32168552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32168552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32783505" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24066168" sideWeight="0.6783145" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.5426516" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4402062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1342,118 +1378,131 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/UserDetailsAssembler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.60616064">
+        <state line="18" column="26" selection-start="567" selection-end="567" vertical-scroll-proportion="0.2010582">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.0.2.RELEASE/spring-social-web-1.0.2.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/FoursquareConnectionFieldHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="46" selection-start="544" selection-end="544" vertical-scroll-proportion="0.24126984">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="103" selection-start="421" selection-end="421" vertical-scroll-proportion="0.14270386">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10391062">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.6479648">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MyUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/TracksException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="743" selection-end="743" vertical-scroll-proportion="0.32169312">
+        <state line="9" column="38" selection-start="191" selection-end="191" vertical-scroll-proportion="0.18546638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="750" selection-end="750" vertical-scroll-proportion="0.646">
+        <state line="36" column="19" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.37093276">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/usage/UsernameAuthenticationTokenService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.35112935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/CheckinEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="15" selection-start="677" selection-end="677" vertical-scroll-proportion="1.102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/CheckinEntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="653" selection-end="653" vertical-scroll-proportion="0.988">
+        <state line="12" column="18" selection-start="360" selection-end="360" vertical-scroll-proportion="0.24728851">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/json/AbstractFoursquareDeserializer.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/NoFoursquareConnectionInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="0" selection-start="8402" selection-end="8402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/CallbackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="9" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
+        <state line="42" column="59" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.6258134">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/PhotoSource.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberMeServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="25" column="19" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.3251073">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/TracksTextEncryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="0.20607375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/MayorshipInfo.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="648" selection-end="648" vertical-scroll-proportion="0.20607375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/UserOperations.java">
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="11" selection-start="7162" selection-end="7162" vertical-scroll-proportion="0.3322785">
+        <state line="27" column="28" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.2090209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/FoursquareService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="52" selection-end="52" vertical-scroll-proportion="0.04021164">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="40" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="94" selection-end="94" vertical-scroll-proportion="-0.36695278">
           <folding />
         </state>
       </provider>

@@ -1,8 +1,8 @@
 package com.petrpopov.yourtracker.web;
 
-import com.petrpopov.yourtracker.security.FoursquareService;
-import com.petrpopov.yourtracker.security.LoginManager;
-import com.petrpopov.yourtracker.security.MyRememberMeServices;
+import com.petrpopov.yourtracker.security.web.LoginManager;
+import com.petrpopov.yourtracker.security.web.TracksRememberMeServices;
+import com.petrpopov.yourtracker.service.FoursquareService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.social.connect.Connection;
@@ -38,7 +38,7 @@ public class SocialController  {
     private ConnectionSignUp connectionSignUp;
 
     @Autowired
-    private MyRememberMeServices rememberMeServices;
+    private TracksRememberMeServices rememberMeServices;
 
     @Autowired
     private LoginManager loginManager;

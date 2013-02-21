@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.usage;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.User;
@@ -13,7 +13,7 @@ import java.lang.reflect.Field;
  * Time: 13:08
  */
 @Component
-public class UserFildService {
+public class UserDetailsFieldHandler {
 
 
     public void setPassword(UserDetails userDetails, String token)

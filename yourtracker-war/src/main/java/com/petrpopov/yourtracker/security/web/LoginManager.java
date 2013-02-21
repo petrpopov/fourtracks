@@ -1,5 +1,6 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.web;
 
+import com.petrpopov.yourtracker.security.usage.FoursquareConnectionFieldHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -29,17 +30,17 @@ public class LoginManager {
     private AuthenticationManager authenticationManager;
 
     @Autowired
-    private FoursquareConnection foursquareConnection;
+    private FoursquareConnectionFieldHandler foursquareConnectionFieldHandler;
 
     @Autowired
-    private MyRememberMeServices rememberMeServices;
+    private TracksRememberMeServices rememberMeServices;
 
     public Authentication authenticate(Connection connection)
     {
         if( !(connection instanceof OAuth2Connection) )
             return null;
 
-        String token = foursquareConnection.getAccessToken((OAuth2Connection) connection);
+        String token = foursquareConnectionFieldHandler.getAccessTokenFromConnection((OAuth2Connection) connection);
         Authentication authentication = this.authenticate(connection.getKey().getProviderUserId(), token );
 
         return authentication;

@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.service;
 
 import org.springframework.security.crypto.encrypt.TextEncryptor;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,8 @@ import org.springframework.stereotype.Component;
  * Time: 12:52
  */
 @Component
-public class MyTextEncryptor implements TextEncryptor {
+public class TracksTextEncryptor implements TextEncryptor {
+
     @Override
     public String encrypt(String text) {
         return text;

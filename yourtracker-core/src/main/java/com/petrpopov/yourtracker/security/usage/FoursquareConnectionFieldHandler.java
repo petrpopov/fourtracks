@@ -1,9 +1,6 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.usage;
 
-import org.springframework.social.connect.ApiAdapter;
-import org.springframework.social.connect.ConnectionData;
 import org.springframework.social.connect.support.OAuth2Connection;
-import org.springframework.social.oauth2.OAuth2ServiceProvider;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;
@@ -14,9 +11,9 @@ import java.lang.reflect.Field;
  * Time: 22:17
  */
 @Component
-public class FoursquareConnection {
+public class FoursquareConnectionFieldHandler {
 
-    public String getAccessToken(OAuth2Connection connection)
+    public String getAccessTokenFromConnection(OAuth2Connection connection)
     {
         try
         {

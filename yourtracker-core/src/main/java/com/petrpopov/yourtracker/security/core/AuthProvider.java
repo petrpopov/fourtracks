@@ -1,12 +1,12 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.core;
 
+import com.petrpopov.yourtracker.security.usage.UserDetailsFieldHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.authentication.RememberMeAuthenticationToken;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
@@ -20,10 +20,10 @@ import org.springframework.stereotype.Component;
 public class AuthProvider extends AbstractUserDetailsAuthenticationProvider
 {
     @Autowired
-    private MyUserDetailsService myUserDetailsService;
+    private TracksUserDetailsService tracksUserDetailsService;
 
     @Autowired
-    private UserFildService userFildService;
+    private UserDetailsFieldHandler userDetailsFieldHandler;
 
     @Override
     protected void additionalAuthenticationChecks(UserDetails userDetails, UsernamePasswordAuthenticationToken authentication) throws AuthenticationException {
@@ -36,8 +36,8 @@ public class AuthProvider extends AbstractUserDetailsAuthenticationProvider
         UserDetails u;
         try
         {
-            u = myUserDetailsService.loadUserByUsername(username);
-            userFildService.setPassword(u, authentication);
+            u = tracksUserDetailsService.loadUserByUsername(username);
+            userDetailsFieldHandler.setPassword(u, authentication);
         }
         catch (UsernameNotFoundException e)
         {

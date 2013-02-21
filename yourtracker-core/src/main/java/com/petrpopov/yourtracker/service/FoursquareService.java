@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.service;
 
 import com.petrpopov.yourtracker.config.AppSettings;
 import org.springframework.beans.factory.annotation.Autowired;

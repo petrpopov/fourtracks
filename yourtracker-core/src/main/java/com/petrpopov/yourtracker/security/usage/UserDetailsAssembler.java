@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.usage;
 
 import com.petrpopov.yourtracker.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
@@ -16,7 +16,7 @@ import java.util.Collection;
  * Time: 10:36
  */
 @Component
-public class UserAssembler {
+public class UserDetailsAssembler {
 
     public UserDetails fromUserToUserDetails(UserEntity user)
     {

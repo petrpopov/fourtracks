@@ -1,5 +1,6 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.security.web;
 
+import com.petrpopov.yourtracker.security.usage.UserDetailsFieldHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -10,7 +11,6 @@ import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.connect.UsersConnectionRepository;
 import org.springframework.social.foursquare.api.Foursquare;
-import org.springframework.util.StringUtils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -23,17 +23,17 @@ import java.util.Arrays;
  * Time: 10:21
  */
 
-public class MyRememberMeServices extends TokenBasedRememberMeServices {
+public class TracksRememberMeServices extends TokenBasedRememberMeServices {
 
     private String cookieName = "YOURTRACKER";
 
     @Autowired
-    private UserFildService userFildService;
+    private UserDetailsFieldHandler userDetailsFieldHandler;
 
     @Autowired
     private UsersConnectionRepository usersConnectionRepository;
 
-    public MyRememberMeServices(String key, UserDetailsService userDetailsService) {
+    public TracksRememberMeServices(String key, UserDetailsService userDetailsService) {
         super(key, userDetailsService);
     }
 
@@ -122,7 +122,7 @@ public class MyRememberMeServices extends TokenBasedRememberMeServices {
         UserDetails userDetails = this.getUserDetailsService().loadUserByUsername(username);
 
         String token = cookieTokens[2];
-        userFildService.setPassword( userDetails, token );
+        userDetailsFieldHandler.setPassword( userDetails, token );
 
         boolean exists = checkConnectionsForUser(username);
         if( !exists )
