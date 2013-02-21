@@ -1,9 +1,7 @@
 package com.petrpopov.yourtracker.config;
 
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -33,6 +31,8 @@ public class AppSettings {
             MONGODB_HOST = properties.getProperty("mongodb_host");
             MONGODB_DB = properties.getProperty("mongodb_db");
 
+            OMIT_EMPTY_CHECKINS = Boolean.parseBoolean(properties.getProperty("omit_emty_checkins"));
+
             log().info("Config loaded successfully ! :)");
         } catch (FileNotFoundException e) {
             log().error("Config file not found !");
@@ -54,4 +54,5 @@ public class AppSettings {
     public static String CALLBACK_URL;
     public static String MONGODB_HOST;
     public static String MONGODB_DB;
+    public static boolean OMIT_EMPTY_CHECKINS;
 }

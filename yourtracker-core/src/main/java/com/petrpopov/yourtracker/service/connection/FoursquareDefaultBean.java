@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.connection;
 
 import org.springframework.social.foursquare.api.*;
 

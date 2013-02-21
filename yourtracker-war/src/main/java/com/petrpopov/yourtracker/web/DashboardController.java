@@ -1,12 +1,14 @@
 package com.petrpopov.yourtracker.web;
 
-import com.petrpopov.yourtracker.service.CheckinEntityService;
+import com.petrpopov.yourtracker.entity.CheckinEntity;
+import com.petrpopov.yourtracker.service.connection.CheckinService;
+import com.petrpopov.yourtracker.service.mongo.CheckinEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.social.foursquare.api.Foursquare;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,7 +20,7 @@ import java.util.Map;
 public class DashboardController {
 
     @Autowired
-    private Foursquare api;
+    private CheckinService checkinService;
 
     @Autowired
     private CheckinEntityService checkinEntityService;
@@ -26,6 +28,10 @@ public class DashboardController {
     @RequestMapping("/dashboard")
     public ModelAndView dashboard(Map<String, Object> model)
     {
+        List<CheckinEntity> list = checkinService.getAllCheckinEntities();
+
+        checkinEntityService.save(list);
+
         return new ModelAndView("dashboard", model);
     }
 }

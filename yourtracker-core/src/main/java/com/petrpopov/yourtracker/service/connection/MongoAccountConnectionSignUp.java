@@ -1,7 +1,8 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.connection;
 
 import com.petrpopov.yourtracker.entity.UserEntity;
 import com.petrpopov.yourtracker.security.usage.FoursquareConnectionFieldHandler;
+import com.petrpopov.yourtracker.service.mongo.UserEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.ConnectionSignUp;

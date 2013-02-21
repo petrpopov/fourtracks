@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.mongo;
 
 import com.petrpopov.yourtracker.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;

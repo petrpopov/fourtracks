@@ -2,7 +2,7 @@ package com.petrpopov.yourtracker.web;
 
 import com.petrpopov.yourtracker.security.web.LoginManager;
 import com.petrpopov.yourtracker.security.web.TracksRememberMeServices;
-import com.petrpopov.yourtracker.service.FoursquareService;
+import com.petrpopov.yourtracker.service.connection.FoursquareConnectionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.social.connect.Connection;
@@ -29,7 +29,7 @@ import java.util.List;
 public class SocialController  {
 
     @Autowired
-    private FoursquareService foursquareService;
+    private FoursquareConnectionService foursquareConnectionService;
 
     @Autowired
     private ConnectionRepository connectionRepository;
@@ -47,7 +47,7 @@ public class SocialController  {
     @RequestMapping(value="/connect/foursquare", method= RequestMethod.POST)
     public RedirectView connect() {
 
-        String url = foursquareService.getAuthorizeUrl();
+        String url = foursquareConnectionService.getAuthorizeUrl();
 
         return new RedirectView(url);
     }
@@ -55,7 +55,7 @@ public class SocialController  {
     @RequestMapping(value="/connect/foursquare", method=RequestMethod.GET, params="code")
     public RedirectView callback(@RequestParam("code") String code, HttpServletRequest request, HttpServletResponse response)
     {
-        OAuth2Connection<Foursquare> connection = (OAuth2Connection<Foursquare>) foursquareService.getConnection(code);
+        OAuth2Connection<Foursquare> connection = (OAuth2Connection<Foursquare>) foursquareConnectionService.getConnection(code);
 
         connectionSignUp.execute(connection);
         Authentication authentication = loginManager.authenticate(connection);

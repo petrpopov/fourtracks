@@ -2,7 +2,7 @@ package com.petrpopov.yourtracker.security.core;
 
 import com.petrpopov.yourtracker.entity.UserEntity;
 import com.petrpopov.yourtracker.security.usage.UserDetailsAssembler;
-import com.petrpopov.yourtracker.service.UserEntityService;
+import com.petrpopov.yourtracker.service.mongo.UserEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

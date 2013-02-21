@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.mongo;
 
 import com.petrpopov.yourtracker.entity.CheckinEntity;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,8 +21,7 @@ public class CheckinEntityService {
     @Qualifier("mongoTemplate")
     private MongoOperations op;
 
-    public void save(List<CheckinEntity> checkins)
-    {
+    public void save(List<CheckinEntity> checkins) {
         op.insert(checkins, "checkins");
     }
 }

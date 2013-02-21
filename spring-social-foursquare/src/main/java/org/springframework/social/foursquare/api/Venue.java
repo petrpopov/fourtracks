@@ -27,6 +27,7 @@ public class Venue {
 	private PhotoGroups photos;
 	private String description;
     private boolean like;
+    private boolean closed;
 
     public Venue() {
     }
@@ -50,7 +51,15 @@ public class Venue {
 		this.id = id;
 	}
 
-	public String getName() {
+    public boolean isClosed() {
+        return closed;
+    }
+
+    public void setClosed(boolean closed) {
+        this.closed = closed;
+    }
+
+    public String getName() {
 		return name;
 	}
 

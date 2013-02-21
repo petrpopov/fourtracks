@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.connection;
 
 import com.petrpopov.yourtracker.config.AppSettings;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public class FoursquareService {
+public class FoursquareConnectionService {
 
     @Autowired
     private FoursquareConnectionFactory factory;

@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.service;
+package com.petrpopov.yourtracker.service.connection;
 
 import org.springframework.security.crypto.encrypt.TextEncryptor;
 import org.springframework.stereotype.Component;

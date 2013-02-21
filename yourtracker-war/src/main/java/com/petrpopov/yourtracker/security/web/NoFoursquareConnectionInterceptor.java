@@ -1,6 +1,6 @@
 package com.petrpopov.yourtracker.security.web;
 
-import com.petrpopov.yourtracker.service.FoursquareDefaultBean;
+import com.petrpopov.yourtracker.service.connection.FoursquareDefaultBean;
 import org.springframework.aop.framework.Advised;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.social.foursquare.api.Foursquare;

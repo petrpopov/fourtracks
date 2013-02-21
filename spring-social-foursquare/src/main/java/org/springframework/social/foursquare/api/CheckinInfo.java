@@ -27,4 +27,11 @@ public class CheckinInfo {
 		return items;
 	}
 
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public void setItems(List<Checkin> items) {
+        this.items = items;
+    }
 }
