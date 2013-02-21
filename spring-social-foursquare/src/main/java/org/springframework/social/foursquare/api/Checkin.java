@@ -1,7 +1,10 @@
 package org.springframework.social.foursquare.api;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.Date;
 
+@JsonIgnoreProperties({"likes", "posts", "entities"})
 public class Checkin {
 	
 	private String id;
@@ -9,24 +12,32 @@ public class Checkin {
 	private Date createdAt;
 	private String type;
 	private String shout;
-	private boolean mayor;
+	private boolean isMayor;
 	private String timeZone;
+    private String timeZoneOffset;
 	private Venue venue;
 	private Photos photos;
 	private CheckinSource source;
 	private CheckinCommentInfo comments;
-	
-	public Checkin(String id, FoursquareUser user, Date createdAt, String type, String timeZone, 
+    private boolean like;
+
+    public Checkin() {
+    }
+
+    public Checkin(String id, FoursquareUser user, Date createdAt, String type, String timeZone,  String timeZoneOffset,
 			Venue venue, CheckinSource source, CheckinCommentInfo comments) {
 		this.id = id;
 		this.user = user;
 		this.createdAt = createdAt;
 		this.type = type;
 		this.timeZone = timeZone;
+        this.timeZoneOffset = timeZoneOffset;
 		this.venue = venue;
 		this.source = source;
 		this.comments = comments;
 	}
+
+
 
 	public String getId() {
 		return id;
@@ -44,15 +55,27 @@ public class Checkin {
 		return type;
 	}
 
-	public boolean isMayor() {
-		return mayor;
-	}
+    public boolean getisMayor() {
+        return isMayor;
+    }
 
-	public String getTimeZone() {
+    public void setisMayor(boolean mayor) {
+        isMayor = mayor;
+    }
+
+    public String getTimeZone() {
 		return timeZone;
 	}
 
-	public Venue getVenue() {
+    public String getTimeZoneOffset() {
+        return timeZoneOffset;
+    }
+
+    public void setTimeZoneOffset(String timeZoneOffset) {
+        this.timeZoneOffset = timeZoneOffset;
+    }
+
+    public Venue getVenue() {
 		return venue;
 	}
 
@@ -71,4 +94,12 @@ public class Checkin {
 	public CheckinCommentInfo getComments() {
 		return comments;
 	}
+
+    public boolean isLike() {
+        return like;
+    }
+
+    public void setLike(boolean like) {
+        this.like = like;
+    }
 }

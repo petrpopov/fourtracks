@@ -1,12 +1,12 @@
 package org.springframework.social.foursquare.api.impl;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.social.foursquare.api.FoursquareUser;
 import org.springframework.social.test.client.MockRestServiceServer;
+
+import static org.junit.Assert.assertEquals;
 
 public class AbstractFoursquareApiTest {
 
@@ -29,7 +29,7 @@ public class AbstractFoursquareApiTest {
 		assertEquals("Wright", profile.getLastName());
 		assertEquals("male", profile.getGender());
 		assertEquals(3, profile.getMayorshipInfo().getTotal());
-		assertEquals(659, profile.getCheckinInfo().getTotal());
+		assertEquals(659, profile.getCheckinInfo().getCount());
 		assertEquals("https://playfoursquare.s3.amazonaws.com/userpix_thumbs/OGGQATTYHOGWJL4E.jpg", profile.getPhotoUrl());
 	}
 }

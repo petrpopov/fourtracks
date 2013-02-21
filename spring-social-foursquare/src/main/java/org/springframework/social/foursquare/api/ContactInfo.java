@@ -4,17 +4,30 @@ public class ContactInfo {
 	
 	private String email;
 	private String twitter;
+    private String facebook;
 	private String phone;
 	private String formattedPhone;
-	
-	public ContactInfo(String email, String twitter, String phone, String formattedPhone) {
+
+    public ContactInfo() {
+    }
+
+    public ContactInfo(String email, String twitter, String phone, String formattedPhone) {
 		this.email = email;
 		this.twitter = twitter;
 		this.phone = phone;
 		this.formattedPhone = formattedPhone;
 	}
 
-	public String getEmail() {
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public void setFacebook(String facebook) {
+        this.facebook = facebook;
+    }
+
+    public String getEmail() {
 		return email;
 	}
 

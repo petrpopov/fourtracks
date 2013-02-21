@@ -5,27 +5,41 @@ import java.util.List;
 public class Category {
 	
 	private String id;
-	private String name;
+    private String name;
+	private String shortName;
 	private String pluralName;
 	private String iconUrl;
 	private List<String> parents;
 	private List<Category> children;
 	private boolean primary;
-	
-	public Category(String id, String name, String pluralName, String iconUrl, boolean primary) {
+    private Icon icon;
+
+    public Category() {
+    }
+
+    public Category(String id, String shortName, String name, String pluralName, String iconUrl, boolean primary) {
 		this.id = id;
-		this.name = name;
+		this.shortName = shortName;
 		this.pluralName = pluralName;
 		this.iconUrl = iconUrl;
 		this.primary = primary;
+        this.name = name;
 	}
 
-	public String getId() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
 		return id;
 	}
 
-	public String getName() {
-		return name;
+	public String getShortName() {
+		return shortName;
 	}
 
 	public String getPluralName() {
@@ -47,5 +61,16 @@ public class Category {
 	public boolean isPrimary() {
 		return primary;
 	}
-	
+
+    public void setShortName(String shortName) {
+        this.shortName = shortName;
+    }
+
+    public Icon getIcon() {
+        return icon;
+    }
+
+    public void setIcon(Icon icon) {
+        this.icon = icon;
+    }
 }

@@ -1,30 +1,16 @@
 package org.springframework.social.foursquare.api.impl;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertNotNull;
-import static org.springframework.http.HttpMethod.GET;
-import static org.springframework.http.HttpMethod.POST;
-import static org.springframework.social.test.client.RequestMatchers.body;
-import static org.springframework.social.test.client.RequestMatchers.method;
-import static org.springframework.social.test.client.RequestMatchers.requestTo;
-import static org.springframework.social.test.client.ResponseCreators.withResponse;
+import org.junit.Test;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.social.foursquare.api.*;
 
 import java.util.List;
 
-import org.junit.Test;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.social.foursquare.api.Category;
-import org.springframework.social.foursquare.api.CheckinInfo;
-import org.springframework.social.foursquare.api.ExploreQuery;
-import org.springframework.social.foursquare.api.ExploreResponse;
-import org.springframework.social.foursquare.api.Location;
-import org.springframework.social.foursquare.api.Tips;
-import org.springframework.social.foursquare.api.Todo;
-import org.springframework.social.foursquare.api.Venue;
-import org.springframework.social.foursquare.api.VenueLinks;
-import org.springframework.social.foursquare.api.Photos;
-import org.springframework.social.foursquare.api.VenueSearchParams;
+import static org.junit.Assert.*;
+import static org.springframework.http.HttpMethod.GET;
+import static org.springframework.http.HttpMethod.POST;
+import static org.springframework.social.test.client.RequestMatchers.*;
+import static org.springframework.social.test.client.ResponseCreators.withResponse;
 
 public class VenueTemplateTest extends AbstractFoursquareApiTest {
 	
@@ -111,7 +97,7 @@ public class VenueTemplateTest extends AbstractFoursquareApiTest {
             .andRespond(withResponse(new ClassPathResource("testdata/herenow.json", getClass()), responseHeaders));
         
         CheckinInfo herenow = foursquare.venueOperations().getHereNow("VENUE_ID", 0, 0, 0);
-        assertTrue(herenow.getCheckins().size() > 0);
+        assertTrue(herenow.getItems().size() > 0);
     }
 	
 	@Test

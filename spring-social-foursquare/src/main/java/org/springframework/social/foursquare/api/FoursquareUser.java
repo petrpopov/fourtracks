@@ -1,22 +1,31 @@
 package org.springframework.social.foursquare.api;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties({"tips", "lists"})
 public class FoursquareUser {
 	
-	private final String id;
-	private final String firstName;
-	private final String lastName;
-	private final String photoUrl;
-	private final String gender;
-	private final String homeCity;
-	private final String relationship;
+	private String id;
+	private String firstName;
+	private String lastName;
+	private String photoUrl;
+	private String gender;
+	private String homeCity;
+	private String relationship;
 	private boolean pings;
-	private ContactInfo contactInfo;
+	private ContactInfo contact;
 	private MayorshipInfo mayorshipInfo;
 	private CheckinInfo checkinInfo;
 	private FriendInfo friendInfo;
 	private Scores scores;
-	
-	public FoursquareUser(String id, String firstName, String lastName, String photoUrl,
+    private FoursquareUserPhoto photo;
+    private String bio;
+
+
+    public FoursquareUser() {
+    }
+
+    public FoursquareUser(String id, String firstName, String lastName, String photoUrl,
 			String gender, String homeCity, String relationship) {
 		this.id = id;
 		this.firstName = firstName;
@@ -27,7 +36,75 @@ public class FoursquareUser {
 		this.relationship = relationship;
 	}
 
-	public String getId() {
+    public String getBio() {
+        return bio;
+    }
+
+    public void setBio(String bio) {
+        this.bio = bio;
+    }
+
+    public FoursquareUserPhoto getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(FoursquareUserPhoto photo) {
+        this.photo = photo;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setHomeCity(String homeCity) {
+        this.homeCity = homeCity;
+    }
+
+    public void setRelationship(String relationship) {
+        this.relationship = relationship;
+    }
+
+    public void setPings(boolean pings) {
+        this.pings = pings;
+    }
+
+    public void setContact(ContactInfo contactInfo) {
+        this.contact = contactInfo;
+    }
+
+    public void setMayorshipInfo(MayorshipInfo mayorshipInfo) {
+        this.mayorshipInfo = mayorshipInfo;
+    }
+
+    public void setCheckinInfo(CheckinInfo checkinInfo) {
+        this.checkinInfo = checkinInfo;
+    }
+
+    public void setFriendInfo(FriendInfo friendInfo) {
+        this.friendInfo = friendInfo;
+    }
+
+    public void setScores(Scores scores) {
+        this.scores = scores;
+    }
+
+    public String getId() {
 		return id;
 	}
 
@@ -59,8 +136,8 @@ public class FoursquareUser {
 		return pings;
 	}
 
-	public ContactInfo getContactInfo() {
-		return contactInfo;
+	public ContactInfo getContact() {
+		return contact;
 	}
 	
 	public MayorshipInfo getMayorshipInfo() {

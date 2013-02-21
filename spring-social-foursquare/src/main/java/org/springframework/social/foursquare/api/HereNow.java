@@ -6,8 +6,11 @@ public class HereNow {
 	
 	private int count;
 	private List<FoursquareUserGroup> groups;
-	
-	public HereNow(int count, List<FoursquareUserGroup> groups) {
+
+    public HereNow() {
+    }
+
+    public HereNow(int count, List<FoursquareUserGroup> groups) {
 		this.count = count;
 		this.groups = groups;
 	}

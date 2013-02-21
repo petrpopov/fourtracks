@@ -6,7 +6,10 @@ public class Leaderboard {
     
     private int count;
     private List<LeaderboardItem> items;
-    
+
+    public Leaderboard() {
+    }
+
     public Leaderboard(int count, List<LeaderboardItem> items) {
         this.count = count;
         this.items = items;

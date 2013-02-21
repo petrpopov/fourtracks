@@ -5,7 +5,10 @@ import java.util.List;
 public class BadgeUnlocks {
     
     private List<Checkin> checkins;
-    
+
+    public BadgeUnlocks() {
+    }
+
     public BadgeUnlocks(List<Checkin> checkins) {
         this.checkins = checkins;
     }

@@ -1,48 +1,21 @@
 package org.springframework.social.foursquare.api.impl;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import com.google.appengine.repackaged.org.json.JSONArray;
-import com.google.appengine.repackaged.org.json.JSONObject;
-import com.sun.corba.se.impl.interceptors.PINoOpHandlerImpl;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.type.TypeFactory;
 import org.codehaus.jackson.type.JavaType;
-import org.springframework.http.HttpInputMessage;
-import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
-import org.springframework.social.foursquare.api.BadgesResponse;
-import org.springframework.social.foursquare.api.CheckinInfo;
-import org.springframework.social.foursquare.api.FoursquareUser;
-import org.springframework.social.foursquare.api.Friends;
-import org.springframework.social.foursquare.api.Leaderboard;
-import org.springframework.social.foursquare.api.Tips;
-import org.springframework.social.foursquare.api.Todos;
-import org.springframework.social.foursquare.api.UserOperations;
-import org.springframework.social.foursquare.api.UserSearchResponse;
-import org.springframework.social.foursquare.api.VenueHistory;
-import org.springframework.social.foursquare.api.impl.json.BadgesResponseContainer;
-import org.springframework.social.foursquare.api.impl.json.CheckinInfoContainer;
-import org.springframework.social.foursquare.api.impl.json.FoursquareUserContainer;
-import org.springframework.social.foursquare.api.impl.json.FriendsContainer;
-import org.springframework.social.foursquare.api.impl.json.LeaderboardContainer;
-import org.springframework.social.foursquare.api.impl.json.RequestsContainer;
-import org.springframework.social.foursquare.api.impl.json.TipsContainer;
-import org.springframework.social.foursquare.api.impl.json.TodosContainer;
-import org.springframework.social.foursquare.api.impl.json.UserSearchResponseContainer;
-import org.springframework.social.foursquare.api.impl.json.VenueHistoryContainer;
-import org.springframework.social.foursquare.custom.*;
+import org.springframework.social.foursquare.api.*;
+import org.springframework.social.foursquare.api.impl.json.*;
+import org.springframework.social.foursquare.custom.DefaultIOHandler;
+import org.springframework.social.foursquare.custom.Method;
+import org.springframework.social.foursquare.custom.Response;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.util.StringUtils;
+
+import java.net.URI;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Implementation of {@link UserOperations}, providing a binding to Foursquare's user-oriented REST resources.
@@ -137,50 +110,12 @@ public class UserTemplate extends AbstractFoursquareOperations implements UserOp
 	}
 	
 	public CheckinInfo getCheckins(String userId) {
-		requireUserAuthorization();
-		return get(buildUri(USERS_ENDPOINT + userId + "/checkins"), CheckinInfoContainer.class).getCheckinInfo();
+		//requireUserAuthorization();
+		//return get(buildUri(USERS_ENDPOINT + userId + "/checkins"), CheckinInfoContainer.class).getCheckinInfo();
+
+        return doGetCheckinsApiLogic(userId, null);
 	}
 
-    public CheckinInfo getCheckinsByApi(String userId) {
-        requireUserAuthorization();
-        URI uri = buildUri(USERS_ENDPOINT + userId + "/checkins");
-
-        DefaultIOHandler handler = new DefaultIOHandler();
-        Response response = handler.fetchData(uri.toString(), Method.GET);
-
-        JSONObject responseJson = null;
-        JSONArray notificationsJson = null;
-        String errorDetail = null;
-
-        try {
-           /* if (response.getResponseCode() == 200) {
-                JSONObject responseObject = new JSONObject(response.getResponseContent());
-                responseJson = responseObject.getJSONObject("response");
-                notificationsJson = responseObject.optJSONArray("notifications");
-            } else {
-                errorDetail = response.getMessage();
-            }*/
-
-//            new ApiRequestResponse(new ResultMeta(response.getResponseCode(), "", errorDetail), responseJson, notificationsJson);
-
-
-            ObjectMapper mapper = new ObjectMapper();
-            JavaType javaType = getJavaType(CheckinInfoContainer.class);
-
-            Object object = mapper.readValue(response.getResponseContent(), javaType);
-            System.out.println(object.getClass());
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return null;
-    }
-
-    protected JavaType getJavaType(Class<?> clazz) {
-        return TypeFactory.type(clazz);
-    }
-		
 	public CheckinInfo getCheckins(String userId, int limit, int offset) {
 		Map<String,String> params = new HashMap<String,String>();
 		params.put("limit", Integer.toString(limit));
@@ -198,9 +133,41 @@ public class UserTemplate extends AbstractFoursquareOperations implements UserOp
 	}
 	
 	private CheckinInfo doGetCheckins(String userId, Map<String,String> params) {
-		return get(buildUri(USERS_ENDPOINT + userId + "/checkins", params), CheckinInfoContainer.class).getCheckinInfo();
+		//return get(buildUri(USERS_ENDPOINT + userId + "/checkins", params), CheckinInfoContainer.class).getCheckinInfo();
+        return doGetCheckinsApiLogic(userId, params);
 	}
-	
+
+    private CheckinInfo doGetCheckinsApiLogic(String userId, Map<String,String> params) {
+        requireUserAuthorization();
+
+        URI uri = null;
+        if( params == null )
+            uri = buildUri(USERS_ENDPOINT + userId + "/checkins");
+        else
+            uri = buildUri(USERS_ENDPOINT + userId + "/checkins", params);
+
+        DefaultIOHandler handler = new DefaultIOHandler();
+        Response response = handler.fetchData(uri.toString(), Method.GET);
+
+        try {
+
+            ObjectMapper mapper = new ObjectMapper();
+            JavaType javaType = getJavaType(CheckinInfoContainer.class);
+
+            //mapper.configure(DeserializationConfig.Feature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+            CheckinInfoContainer container = mapper.readValue(response.getResponseContent(), javaType);
+
+            return container.getCheckinInfo();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    protected JavaType getJavaType(Class<?> clazz) {
+        return TypeFactory.type(clazz);
+    }
 
 	public Friends getFriends() {
 		return getFriends(0, 0);

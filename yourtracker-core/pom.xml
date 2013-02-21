@@ -16,57 +16,24 @@
     
     <properties>
         <spring.version>3.1.1.RELEASE</spring.version>
+        <spring.social.mongo.version>1.0.0-SNAPSHOT</spring.social.mongo.version>
+        <spring.social.foursquare.version>1.0.8-RELEASE</spring.social.foursquare.version>
+        <spring-data-mongodb>1.0.4.RELEASE</spring-data-mongodb>
+        <mongo.version>2.9.3</mongo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>foursquareapijava</id>
-            <name>Foursquare V2 API for Java Repository</name>
-            <url>http://foursquare-api-java.googlecode.com/svn/repository</url>
-        </repository>
-    </repositories>
-
     <dependencies>
 
-        <dependency>
-            <groupId>fi.foyt</groupId>
-            <artifactId>foursquare-api</artifactId>
-            <version>1.0.2</version>
-        </dependency>
+        <!-- Spring starts -->
 
+        <!-- this is for @Configuration -->
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>2.2.2</version>
         </dependency>
-            
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>6.0</version>
-        </dependency>
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-social-foursquare</artifactId>
-            <version>1.0.8-RELEASE</version>
-        </dependency>
-
-
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-mongodb</artifactId>
-            <version>1.0.4.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>2.9.3</version>
-        </dependency>
-
-        <!-- Spring starts -->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjtools</artifactId>
@@ -113,11 +80,7 @@
             <artifactId>spring-asm</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <!--dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>${spring.version}</version>
-        </dependency-->
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
@@ -125,6 +88,32 @@
             <type>jar</type>
         </dependency>
         <!-- Spring ends -->
+
+        <!-- Spring Social starts -->
+        <dependency>
+            <groupId>spring-social-mongo</groupId>
+            <artifactId>spring-social-mongo</artifactId>
+            <version>${spring.social.mongo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-social-foursquare</artifactId>
+            <version>${spring.social.foursquare.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring-data-mongodb}</version>
+        </dependency>
+        <!-- Spring Social ends -->
+
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>${mongo.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -135,7 +124,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.9</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

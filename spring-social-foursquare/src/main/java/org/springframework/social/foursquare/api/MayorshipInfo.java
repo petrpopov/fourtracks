@@ -6,8 +6,11 @@ public class MayorshipInfo {
 	
 	private int total;
 	private List<Venue> venues;
-	
-	public MayorshipInfo(int total, List<Venue> venues) {
+
+    public MayorshipInfo() {
+    }
+
+    public MayorshipInfo(int total, List<Venue> venues) {
 		this.total = total;
 		this.venues = venues;
 	}

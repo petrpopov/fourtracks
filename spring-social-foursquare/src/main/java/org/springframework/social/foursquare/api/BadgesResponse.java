@@ -6,7 +6,10 @@ public class BadgesResponse {
     
     private BadgeSets sets;
     private Map<String, Badge> badges;
-    
+
+    public BadgesResponse() {
+    }
+
     public BadgesResponse(BadgeSets sets, Map<String, Badge> badges) {
         this.sets = sets;
         this.badges = badges;

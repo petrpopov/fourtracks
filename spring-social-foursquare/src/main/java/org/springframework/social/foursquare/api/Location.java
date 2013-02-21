@@ -1,5 +1,8 @@
 package org.springframework.social.foursquare.api;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties({"cc"})
 public class Location {
 	
 	private String address;
@@ -8,11 +11,18 @@ public class Location {
 	private String state;
 	private String postalCode;
 	private String country;
+    private String cc;
+    private String countryCode;
 	private double latitude;
+    private double lat;
+    private double lng;
 	private double longitude;
 	private int distance;
-	
-	public Location(String address, String crossStreet, String city, String state,
+
+    public Location() {
+    }
+
+    public Location(String address, String crossStreet, String city, String state,
 			String postalCode, String country, double latitude, double longitude) {
 		this.address = address;
 		this.crossStreet = crossStreet;
@@ -78,6 +88,7 @@ public class Location {
 
 	public void setLatitude(double latitude) {
 		this.latitude = latitude;
+        this.lat = latitude;
 	}
 
 	public double getLongitude() {
@@ -86,10 +97,46 @@ public class Location {
 
 	public void setLongitude(double longitude) {
 		this.longitude = longitude;
+        this.lng = longitude;
 	}
 	
 	public int getDistance() {
 		return distance;
 	}
 
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+        this.latitude = lat;
+    }
+
+    public double getLng() {
+        return lng;
+    }
+
+    public void setLng(double lng) {
+        this.lng = lng;
+        this.longitude = lng;
+    }
+
+    public String getCc() {
+        return cc;
+    }
+
+    public void setCc(String cc) {
+        this.cc = cc;
+        this.countryCode = cc;
+    }
+
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+        this.cc = countryCode;
+    }
 }

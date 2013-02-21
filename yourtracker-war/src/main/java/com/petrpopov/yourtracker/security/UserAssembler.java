@@ -1,5 +1,6 @@
 package com.petrpopov.yourtracker.security;
 
+import com.petrpopov.yourtracker.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -17,7 +18,7 @@ import java.util.Collection;
 @Component
 public class UserAssembler {
 
-    public UserDetails fromUserToUserDetails(com.petrpopov.yourtracker.model.User user)
+    public UserDetails fromUserToUserDetails(UserEntity user)
     {
         String username = user.getFsId();
         String password = "";

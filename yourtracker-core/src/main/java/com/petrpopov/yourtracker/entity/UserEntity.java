@@ -1,4 +1,4 @@
-package com.petrpopov.yourtracker.model;
+package com.petrpopov.yourtracker.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,7 +12,7 @@ import java.io.Serializable;
  */
 
 @Document
-public class User implements Serializable {
+public class UserEntity implements Serializable {
 
     @Id
     private String id;

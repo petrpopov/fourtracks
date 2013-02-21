@@ -7,7 +7,11 @@ public class BadgeImage {
     private String prefix;
     private String name;
     private List<Integer> sizes;
-    
+
+
+    public BadgeImage() {
+    }
+
     public BadgeImage(String prefix, String name, List<Integer> sizes) {
         this.prefix = prefix;
         this.name = name;

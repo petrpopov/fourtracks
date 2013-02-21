@@ -4,10 +4,15 @@ public class VenueStats {
 	
 	private int checkinsCount;
 	private int usersCount;
-	
-	public VenueStats(int checkinsCount, int usersCount) {
+    private int tipCount;
+
+    public VenueStats() {
+    }
+
+    public VenueStats(int checkinsCount, int usersCount, int tipCount) {
 		this.checkinsCount = checkinsCount;
 		this.usersCount = usersCount;
+        this.tipCount = tipCount;
 	}
 
 	public int getCheckinsCount() {
@@ -25,5 +30,12 @@ public class VenueStats {
 	public void setUsersCount(int usersCount) {
 		this.usersCount = usersCount;
 	}
-	
+
+    public int getTipCount() {
+        return tipCount;
+    }
+
+    public void setTipCount(int tipCount) {
+        this.tipCount = tipCount;
+    }
 }

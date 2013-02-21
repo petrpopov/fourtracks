@@ -1,7 +1,10 @@
 package org.springframework.social.foursquare.api;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.Date;
 
+@JsonIgnoreProperties({"visibility"})
 public class Photo {
 	
 	private String id;
@@ -11,8 +14,11 @@ public class Photo {
 	private PhotoSource source;
 	private FoursquareUser user;
 	private Venue venue;
-	
-	public Photo(String id, Date createdAt, String url, PhotoSizes sizes, FoursquareUser user) {
+
+    public Photo() {
+    }
+
+    public Photo(String id, Date createdAt, String url, PhotoSizes sizes, FoursquareUser user) {
 		this.id = id;
 		this.createdAt = createdAt;
 		this.url = url;

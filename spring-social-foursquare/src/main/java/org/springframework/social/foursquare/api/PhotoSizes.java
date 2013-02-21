@@ -6,8 +6,11 @@ public class PhotoSizes {
 	
 	private int count;
 	private List<PhotoSize> items;
-	
-	public PhotoSizes(int count, List<PhotoSize> items) {
+
+    public PhotoSizes() {
+    }
+
+    public PhotoSizes(int count, List<PhotoSize> items) {
 		this.count = count;
 		this.items = items;
 	}

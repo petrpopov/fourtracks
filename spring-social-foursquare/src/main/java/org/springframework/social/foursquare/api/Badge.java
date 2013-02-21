@@ -8,7 +8,10 @@ public class Badge {
     private String description;
     private BadgeImage image;
     private List<BadgeUnlocks> unlocks;
-    
+
+    public Badge() {
+    }
+
     public Badge(String id, String name, String description, BadgeImage image, List<BadgeUnlocks> unlocks) {
         this.id = id;
         this.name = name;

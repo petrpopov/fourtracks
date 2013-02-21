@@ -92,7 +92,7 @@ public interface UserOperations {
 	 */
 	CheckinInfo getCheckins(String userId);
 
-    CheckinInfo getCheckinsByApi(String userId);
+    //CheckinInfo getCheckinsByApi(String userId);
 	
 	/**
 	 * Retrieve the specified user's checkin history

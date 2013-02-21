@@ -6,8 +6,11 @@ public class VenueTips {
 	
 	private int count;
 	private List<TipGroup> groups;
-	
-	public VenueTips(int count, List<TipGroup> groups) {
+
+    public VenueTips() {
+    }
+
+    public VenueTips(int count, List<TipGroup> groups) {
 		this.count = count;
 		this.groups = groups;
 	}

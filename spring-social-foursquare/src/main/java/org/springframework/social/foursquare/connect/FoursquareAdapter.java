@@ -33,7 +33,7 @@ public class FoursquareAdapter implements ApiAdapter<Foursquare> {
     public UserProfile fetchUserProfile(Foursquare instagram) {
         FoursquareUser user = instagram.userOperations().getUser();
         String name = user.getFirstName() + " " + user.getLastName();
-        String email = user.getContactInfo().getEmail();
+        String email = user.getContact().getEmail();
         return new UserProfileBuilder().setName(name).setUsername(email).setEmail(email).build();
     }
 

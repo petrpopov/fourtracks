@@ -1,6 +1,6 @@
-package com.petrpopov.yourtracker.beans;
+package com.petrpopov.yourtracker.service;
 
-import com.petrpopov.yourtracker.model.User;
+import com.petrpopov.yourtracker.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
@@ -15,33 +15,33 @@ import org.springframework.stereotype.Component;
  * Date: 12.02.13
  * Time: 13:33
  */
-@Component("userService")
-public class UserService {
+@Component
+public class UserEntityService {
 
     @Autowired
     @Qualifier("mongoTemplate")
     private MongoOperations op;
 
 
-    public User getUserByFoursquareId(String fsId)
+    public UserEntity getUserByFoursquareId(String fsId)
     {
         Criteria criteria = Criteria.where("fsId").is(fsId);
         Query query = new Query(criteria);
 
-        return op.findOne(query, User.class);
+        return op.findOne(query, UserEntity.class);
     }
 
-    public User getUserByCookieId(String cookie)
+    public UserEntity getUserByCookieId(String cookie)
     {
         Criteria criteria = Criteria.where("cookieId").is(cookie);
         Query query = new Query(criteria);
 
-        return op.findOne(query, User.class);
+        return op.findOne(query, UserEntity.class);
     }
 
-    public User saveOrUpdate(User user)
+    public UserEntity saveOrUpdate(UserEntity user)
     {
-        User u = this.getUserByFoursquareId(user.getFsId());
+        UserEntity u = this.getUserByFoursquareId(user.getFsId());
         if( u == null )
             op.save(user);
         else
@@ -53,7 +53,7 @@ public class UserService {
 
             Query query = new Query(Criteria.where("fsId").is(user.getFsId()));
             u = op.findAndModify(query, update,
-                    new FindAndModifyOptions().returnNew(true), User.class);
+                    new FindAndModifyOptions().returnNew(true), UserEntity.class);
         }
 
         return u;

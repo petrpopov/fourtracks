@@ -1,7 +1,7 @@
 package com.petrpopov.yourtracker.security;
 
-import com.petrpopov.yourtracker.beans.UserService;
-import com.petrpopov.yourtracker.model.User;
+import com.petrpopov.yourtracker.entity.UserEntity;
+import com.petrpopov.yourtracker.service.UserEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 public class MyUserDetailsService implements UserDetailsService {
 
     @Autowired
-    private UserService userService;
+    private UserEntityService userEntityService;
 
     @Autowired
     private UserAssembler userAssembler;
@@ -25,7 +25,7 @@ public class MyUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        User user = userService.getUserByFoursquareId(username);
+        UserEntity user = userEntityService.getUserByFoursquareId(username);
 
         if(user == null)
             throw new UsernameNotFoundException("User not found in MongoDB !");

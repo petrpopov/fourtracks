@@ -1,7 +1,7 @@
 package com.petrpopov.yourtracker.security;
 
-import com.petrpopov.yourtracker.beans.UserService;
-import com.petrpopov.yourtracker.model.User;
+import com.petrpopov.yourtracker.entity.UserEntity;
+import com.petrpopov.yourtracker.service.UserEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.ConnectionSignUp;
@@ -22,20 +22,20 @@ public class MongoAccountConnectionSignUp implements ConnectionSignUp {
     private FoursquareConnection foursquareConnection;
 
     @Autowired
-    private UserService userService;
+    private UserEntityService userEntityService;
 
     @Override
     public String execute(Connection<?> connection) {
 
         UserProfile profile = connection.fetchUserProfile();
 
-        User user = new User();
+        UserEntity user = new UserEntity();
         user.setFsId(connection.getKey().getProviderUserId());
         user.setFirstName(profile.getFirstName());
         user.setLastName( profile.getLastName() );
         user.setToken( foursquareConnection.getAccessToken((OAuth2Connection) connection) );
 
-        userService.saveOrUpdate(user);
+        userEntityService.saveOrUpdate(user);
 
         return profile.getUsername();
     }

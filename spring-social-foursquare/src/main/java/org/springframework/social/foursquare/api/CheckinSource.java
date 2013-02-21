@@ -4,8 +4,11 @@ public class CheckinSource {
 	
 	private String name;
 	private String url;
-	
-	public CheckinSource(String name, String url) {
+
+    public CheckinSource() {
+    }
+
+    public CheckinSource(String name, String url) {
 		this.name = name;
 		this.url = url;
 	}

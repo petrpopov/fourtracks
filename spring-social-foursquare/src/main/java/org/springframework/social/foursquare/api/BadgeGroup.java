@@ -9,7 +9,10 @@ public class BadgeGroup {
     private List<String> items;
     private List<BadgeGroup> groups;
     private BadgeImage image;
-    
+
+    public BadgeGroup() {
+    }
+
     public BadgeGroup(String type, String name, List<String> items, List<BadgeGroup> groups) {
         this.type = type;
         this.name = name;

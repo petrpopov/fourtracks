@@ -1,16 +1,16 @@
 package org.springframework.social.foursquare.api.impl.json;
 
-import java.io.FileDescriptor;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.util.List;
-
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.JsonToken;
 import org.codehaus.jackson.map.JsonDeserializer;
 import org.codehaus.jackson.type.TypeReference;
+
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.List;
 
 public abstract class AbstractFoursquareDeserializer<T> extends JsonDeserializer<T> {
     
@@ -45,7 +45,8 @@ public abstract class AbstractFoursquareDeserializer<T> extends JsonDeserializer
 					String responseField = jp.getCurrentName();
 					jp.nextToken();
 					if(responseProperty.equals(responseField)) {
-						return jp.readValueAs(responseType);
+						Object obj = jp.readValueAs(responseType);
+                        return (C)obj;
 					}
 				}
 			}

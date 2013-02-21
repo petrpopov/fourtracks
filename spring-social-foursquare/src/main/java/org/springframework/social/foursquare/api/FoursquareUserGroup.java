@@ -8,8 +8,11 @@ public class FoursquareUserGroup {
 	private String name;
 	private int count;
 	private List<FoursquareUser> items;
-	
-	public FoursquareUserGroup(String type, String name, int count, List<FoursquareUser> items) {
+
+    public FoursquareUserGroup() {
+    }
+
+    public FoursquareUserGroup(String type, String name, int count, List<FoursquareUser> items) {
 		this.type = type;
 		this.name = name;
 		this.count = count;

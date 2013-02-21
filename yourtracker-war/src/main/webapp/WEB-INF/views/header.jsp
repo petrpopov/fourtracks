@@ -28,7 +28,7 @@
             <div class="pull-right">
                 <ul class="nav">
                     <li class="active"><a href="<s:url value="/"/>">Main</a></li>
-                    <li><a href="<s:url value="/profile"/>">Profile</a></li>
+                    <li><a href="<s:url value="/dashboard"/>">Dashboard</a></li>
                 </ul>
 
                 <form class="navbar-form pull-left" action="<c:url value="/connect/foursquare" />" method="POST">

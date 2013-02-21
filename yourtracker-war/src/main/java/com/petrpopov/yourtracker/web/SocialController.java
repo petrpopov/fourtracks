@@ -1,6 +1,5 @@
 package com.petrpopov.yourtracker.web;
 
-import com.petrpopov.yourtracker.security.FoursquareConnection;
 import com.petrpopov.yourtracker.security.FoursquareService;
 import com.petrpopov.yourtracker.security.LoginManager;
 import com.petrpopov.yourtracker.security.MyRememberMeServices;
@@ -19,7 +18,6 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 /**
@@ -78,7 +76,7 @@ public class SocialController  {
         rememberMeServices.onLoginSuccess(request, response, authentication);
 
 
-        return new RedirectView("/profile", true);
+        return new RedirectView("/dashboard", true);
     }
 
     @RequestMapping(value="/logout", method=RequestMethod.DELETE)

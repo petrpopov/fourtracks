@@ -1,6 +1,6 @@
 package com.petrpopov.yourtracker.security;
 
-import org.springframework.aop.TargetClassAware;
+import com.petrpopov.yourtracker.service.FoursquareDefaultBean;
 import org.springframework.aop.framework.Advised;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.social.foursquare.api.Foursquare;

@@ -1,6 +1,6 @@
-package com.petrpopov.yourtracker.security;
+package com.petrpopov.yourtracker.config;
 
-import com.petrpopov.yourtracker.config.AppSettings;
+import com.petrpopov.yourtracker.service.FoursquareDefaultBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

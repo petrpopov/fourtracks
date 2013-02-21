@@ -8,8 +8,11 @@ public class PhotoGroup {
 	private String name;
 	private int count;
 	private List<Photo> items;
-	
-	public PhotoGroup(String type, String name, int count, List<Photo> items) {
+
+    public PhotoGroup() {
+    }
+
+    public PhotoGroup(String type, String name, int count, List<Photo> items) {
 		this.type = type;
 		this.name = name;
 		this.count = count;

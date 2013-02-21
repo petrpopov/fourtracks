@@ -1,17 +1,21 @@
 package org.springframework.social.foursquare.api;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.List;
 
+@JsonIgnoreProperties({"likes", "listed"})
 public class Venue {
 	
 	private String id;
 	private String name;
-	private ContactInfo contactInfo;
+	private ContactInfo contact;
 	private Location location;
 	private List<Category> categories;
 	private boolean verified;
 	private VenueStats stats;
 	private String url;
+    private String canonicalUrl;
 	private HereNow hereNow;
 	private VenueTips tips;
 	private List<String> tags;
@@ -22,12 +26,16 @@ public class Venue {
 	private VenueBeenHere beenHere;
 	private PhotoGroups photos;
 	private String description;
-	
-	public Venue(String id, String name, ContactInfo contactInfo, Location location, List<Category> categories,
+    private boolean like;
+
+    public Venue() {
+    }
+
+    public Venue(String id, String name, ContactInfo contact, Location location, List<Category> categories,
 			boolean verified, VenueStats stats) {
 		this.id = id;
 		this.name = name;
-		this.contactInfo = contactInfo;
+		this.contact = contact;
 		this.location = location;
 		this.categories = categories;
 		this.verified = verified;
@@ -50,12 +58,12 @@ public class Venue {
 		this.name = name;
 	}
 
-	public ContactInfo getContactInfo() {
-		return contactInfo;
+	public ContactInfo getContact() {
+		return contact;
 	}
 
-	public void setContactInfo(ContactInfo contactInfo) {
-		this.contactInfo = contactInfo;
+	public void setContact(ContactInfo contact) {
+		this.contact = contact;
 	}
 
 	public Location getLocation() {
@@ -133,5 +141,26 @@ public class Venue {
 	public String getDescription() {
 		return description;
 	}
-	
+
+    public String getCanonicalUrl() {
+        return canonicalUrl;
+    }
+
+    public void setCanonicalUrl(String canonicalUrl) {
+        this.canonicalUrl = canonicalUrl;
+        this.url = canonicalUrl;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+        this.canonicalUrl = url;
+    }
+
+    public boolean isLike() {
+        return like;
+    }
+
+    public void setLike(boolean like) {
+        this.like = like;
+    }
 }

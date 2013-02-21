@@ -3,8 +3,11 @@ package org.springframework.social.foursquare.api;
 public class CheckinComment {
 	private String id;
 	private String text;
-	
-	public CheckinComment(String id, String text) {
+
+    public CheckinComment() {
+    }
+
+    public CheckinComment(String id, String text) {
 		this.id = id;
 		this.text = text;
 	}

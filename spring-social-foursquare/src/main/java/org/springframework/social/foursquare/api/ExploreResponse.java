@@ -8,7 +8,10 @@ public class ExploreResponse {
     private Keywords keywords;
     private List<VenueGroup> groups;
     private Map<String,Object> warning;
-    
+
+    public ExploreResponse() {
+    }
+
     public ExploreResponse(Keywords keywords, List<VenueGroup> groups, Map<String,Object> warning) {
         this.keywords = keywords;
         this.groups = groups;

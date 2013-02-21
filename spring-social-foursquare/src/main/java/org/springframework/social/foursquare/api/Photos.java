@@ -6,8 +6,11 @@ public class Photos {
 	
 	private int count;
 	private List<Photo> items;
-	
-	public Photos(int count, List<Photo> items) {
+
+    public Photos() {
+    }
+
+    public Photos(int count, List<Photo> items) {
 		this.count = count;
 		this.items = items;
 	}

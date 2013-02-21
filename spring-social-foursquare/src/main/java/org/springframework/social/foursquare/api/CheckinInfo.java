@@ -5,26 +5,26 @@ import java.util.List;
 
 public class CheckinInfo {
 
-	private int total;
-	private List<Checkin> checkins;
+	private int count;
+	private List<Checkin> items;
 
     public CheckinInfo()
     {
-        total = 0;
-        checkins = new ArrayList<Checkin>();
+        count = 0;
+        items = new ArrayList<Checkin>();
     }
 	
-	public CheckinInfo(int total, List<Checkin> checkins) {
-		this.total = total;
-		this.checkins = checkins;
+	public CheckinInfo(int count, List<Checkin> items) {
+		this.count = count;
+		this.items = items;
 	}
 
-	public int getTotal() {
-		return total;
+	public int getCount() {
+		return count;
 	}
 
-	public List<Checkin> getCheckins() {
-		return checkins;
+	public List<Checkin> getItems() {
+		return items;
 	}
 
 }

@@ -6,8 +6,11 @@ public class PhotoGroups {
 	
 	private int count;
 	private List<PhotoGroup> groups;
-	
-	public PhotoGroups(int count, List<PhotoGroup> groups) {
+
+    public PhotoGroups() {
+    }
+
+    public PhotoGroups(int count, List<PhotoGroup> groups) {
 		this.count = count;
 		this.groups = groups;
 	}

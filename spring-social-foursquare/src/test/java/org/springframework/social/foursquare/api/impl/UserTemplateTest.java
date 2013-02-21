@@ -1,28 +1,18 @@
 package org.springframework.social.foursquare.api.impl;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.springframework.http.HttpMethod.GET;
-import static org.springframework.http.HttpMethod.POST;
-import static org.springframework.social.test.client.RequestMatchers.body;
-import static org.springframework.social.test.client.RequestMatchers.method;
-import static org.springframework.social.test.client.RequestMatchers.requestTo;
-import static org.springframework.social.test.client.ResponseCreators.withResponse;
+import org.junit.Test;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.social.foursquare.api.*;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Test;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.social.foursquare.api.BadgesResponse;
-import org.springframework.social.foursquare.api.CheckinInfo;
-import org.springframework.social.foursquare.api.FoursquareUser;
-import org.springframework.social.foursquare.api.Friends;
-import org.springframework.social.foursquare.api.Leaderboard;
-import org.springframework.social.foursquare.api.Tips;
-import org.springframework.social.foursquare.api.Todos;
-import org.springframework.social.foursquare.api.UserSearchResponse;
-import org.springframework.social.foursquare.api.VenueHistory;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.springframework.http.HttpMethod.GET;
+import static org.springframework.http.HttpMethod.POST;
+import static org.springframework.social.test.client.RequestMatchers.*;
+import static org.springframework.social.test.client.ResponseCreators.withResponse;
 
 public class UserTemplateTest extends AbstractFoursquareApiTest {
 	
@@ -112,8 +102,8 @@ public class UserTemplateTest extends AbstractFoursquareApiTest {
             .andRespond(withResponse(new ClassPathResource("testdata/checkins.json", getClass()), responseHeaders));
         
         CheckinInfo checkinInfo = foursquare.userOperations().getCheckins();
-        assertEquals(562, checkinInfo.getTotal());
-        assertTrue(checkinInfo.getCheckins().get(0) != null);
+        assertEquals(562, checkinInfo.getCount());
+        assertTrue(checkinInfo.getItems().get(0) != null);
         mockServer.verify();
     }
     
@@ -124,7 +114,7 @@ public class UserTemplateTest extends AbstractFoursquareApiTest {
             .andRespond(withResponse(new ClassPathResource("testdata/checkins.json", getClass()), responseHeaders));
         
         CheckinInfo checkinInfo = foursquare.userOperations().getCheckins(100, 50);
-        assertTrue(checkinInfo.getCheckins().get(0) != null);
+        assertTrue(checkinInfo.getItems().get(0) != null);
         mockServer.verify();
     }
     
@@ -135,7 +125,7 @@ public class UserTemplateTest extends AbstractFoursquareApiTest {
             .andRespond(withResponse(new ClassPathResource("testdata/checkins.json", getClass()), responseHeaders));
         
         CheckinInfo checkinInfo = foursquare.userOperations().getCheckins(500, 600, 100, 50);
-        assertTrue(checkinInfo.getCheckins().get(0) != null);
+        assertTrue(checkinInfo.getItems().get(0) != null);
         mockServer.verify();
     }
     

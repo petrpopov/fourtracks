@@ -5,7 +5,10 @@ public class LeaderboardItem {
     private int rank;
     private Scores scores;
     private FoursquareUser user;
-    
+
+    public LeaderboardItem() {
+    }
+
     public LeaderboardItem(FoursquareUser user, int rank, Scores scores) {
         this.user = user;
         this.rank = rank;

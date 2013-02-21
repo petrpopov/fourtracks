@@ -6,8 +6,11 @@ public class CheckinCommentInfo {
 	
 	private int count;
 	private List<CheckinComment> items;
-	
-	public CheckinCommentInfo(int count, List<CheckinComment> items) {
+
+    public CheckinCommentInfo() {
+    }
+
+    public CheckinCommentInfo(int count, List<CheckinComment> items) {
 		this.count = count;
 		this.items = items;
 	}
