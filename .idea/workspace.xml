@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/CheckinEntityService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/FoursquareDefaultBean.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareDefaultBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/FoursquareService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareConnectionService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/MongoAccountConnectionSignUp.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/TracksTextEncryptor.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/TracksTextEncryptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/UserEntityService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserEntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/img/marker.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/NoFoursquareConnectionInterceptor.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/NoFoursquareConnectionInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/css/style.css" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yourtracker.iws" />
@@ -35,12 +24,12 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360608198000" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360608198000" ignored="false" />
     <file path="/home.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360925430089" ignored="false" />
-    <file path="/main_template.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360657613624" ignored="false" />
+    <file path="/main_template.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361475197086" ignored="false" />
     <file path="/views.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360819603578" ignored="false" />
     <file path="/header.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361458290958" ignored="false" />
     <file path="/signin.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360931267595" ignored="false" />
     <file path="/LoginController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360915209263" ignored="false" />
-    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361464375313" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361609988396" ignored="false" />
     <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361464071087" ignored="false" />
     <file path="/FsApiManager.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360650642589" ignored="false" />
     <file path="/AppSettings.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361471045731" ignored="false" />
@@ -127,8 +116,10 @@
     <file path="/FoursquareConnectionFieldHandler.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361461652942" ignored="false" />
     <file path="/NoFoursquareConnectionInterceptor.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463545231" ignored="false" />
     <file path="/TracksException.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361463288144" ignored="false" />
-    <file path="/DashboardController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361470660553" ignored="false" />
-    <file path="/CheckinEntityService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361471131033" ignored="false" />
+    <file path="/DashboardController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361549514164" ignored="false" />
+    <file path="/CheckinEntityService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361551286222" ignored="false" />
+    <file path="/dashboard.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361554524097" ignored="false" />
+    <file path="/style.css" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361473017420" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,15 +187,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AuthProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -223,25 +205,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckinService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java">
+      <file leaf-file-name="DashboardController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="16" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1229#1244#0" expanded="true" />
-              </folding>
+            <state line="43" column="32" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashboardController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java">
+      <file leaf-file-name="CheckinEntityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="954" selection-end="954" vertical-scroll-proportion="0.64338624">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="36" column="83" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserEntityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="8" selection-start="1067" selection-end="1125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckinEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/CheckinEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="16" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="28" selection-start="465" selection-end="474" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="63" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.61702126">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_template.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="44" selection-start="924" selection-end="952" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,9 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/TracksTextEncryptor.java" />
-        <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/AuthProvider.java" />
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/AuthProvider.java" />
         <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java" />
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksTextEncryptor.java" />
@@ -275,11 +294,14 @@
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareConnectionService.java" />
         <option value="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java" />
         <option value="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java" />
-        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
         <option value="$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java" />
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" />
         <option value="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
+        <option value="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" />
       </list>
     </option>
   </component>
@@ -300,7 +322,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1093" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -567,6 +589,138 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -598,10 +752,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yourtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -955,40 +1105,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yourtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yourtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-social-foursquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foursquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1006,17 +1122,18 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.petrpopov.yourtracker.beans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/img" />
       <recent name="$PROJECT_DIR$/yourtracker-war/src/main/webapp" />
       <recent name="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/yourtracker-war/src/main/resources" />
@@ -1059,19 +1176,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1098,6 +1202,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1323,7 +1440,11 @@
       <created>1361464383166</created>
       <updated>1361464383166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="save checkins">
+      <created>1361471476192</created>
+      <updated>1361471476192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1347,37 +1468,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1093" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1090" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4573484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45670104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32168552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5426516" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32783505" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.5426516" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.54235536" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43987668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5426516" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32168552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1419,7 +1540,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="save checkins" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1434,12 +1555,14 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="finally, checkins are working" />
     <MESSAGE value="refactoring" />
+    <MESSAGE value="save checkins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1447,105 +1570,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareConnectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="0.37671956">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/FoursquareUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="473" selection-end="473" vertical-scroll-proportion="0.35032538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.18546638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="0" selection-start="8402" selection-end="8402" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Venue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="31" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.92733186">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/impl/UserTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="6051" selection-end="6051" vertical-scroll-proportion="0.12761275">
-          <folding>
-            <element signature="e#4471#4486#0" expanded="true" />
-            <element signature="e#4788#4803#0" expanded="true" />
-            <element signature="e#6775#6790#0" expanded="true" />
-            <element signature="e#8068#8083#0" expanded="true" />
-            <element signature="e#9244#9259#0" expanded="true" />
-            <element signature="e#9888#9903#0" expanded="true" />
-            <element signature="e#11192#11208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/UserOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.1724512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/TracksTextEncryptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="264" selection-end="264" vertical-scroll-proportion="0.2010582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.14074074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="79" selection-start="928" selection-end="928" vertical-scroll-proportion="0.37671956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="16" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1229#1244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.36695278">
@@ -1562,19 +1586,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/img/connect-black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="924" selection-end="952" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/entity/CheckinEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="465" selection-end="474" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-labs/1.3.8/appengine-api-labs-1.3.8.jar!/com/google/appengine/repackaged/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="62" selection-start="3822" selection-end="3822" vertical-scroll-proportion="0.3598184" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.0.4.RELEASE/spring-data-mongodb-1.0.4.RELEASE-sources.jar!/org/springframework/data/mongodb/core/MongoOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="16" selection-start="10441" selection-end="10441" vertical-scroll-proportion="0.9415011" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="1067" selection-end="1125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="40" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.0.4.RELEASE/spring-data-mongodb-1.0.4.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="11" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.33297062" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="75" selection-end="75" vertical-scroll-proportion="0.04021164">
+        <state line="36" column="83" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="954" selection-end="954" vertical-scroll-proportion="0.64338624">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="43" column="32" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="63" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.61702126">
+          <folding />
         </state>
       </provider>
     </entry>
