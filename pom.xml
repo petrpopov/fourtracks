@@ -11,6 +11,7 @@
         <module>yourtracker-war</module>
         <module>yourtracker-core</module>
         <module>spring-social-foursquare</module>
+        <module>spring-social-instagram</module>
         <module>spring-social-mongo</module>
     </modules>
 </project>

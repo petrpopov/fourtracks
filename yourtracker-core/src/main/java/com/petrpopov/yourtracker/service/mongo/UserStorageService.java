@@ -10,13 +10,15 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 /**
  * User: petrpopov
  * Date: 12.02.13
  * Time: 13:33
  */
 @Component
-public class UserEntityService {
+public class UserStorageService {
 
     @Autowired
     @Qualifier("mongoTemplate")
@@ -57,5 +59,9 @@ public class UserEntityService {
         }
 
         return u;
+    }
+
+    public List<UserEntity> findAll() {
+        return op.findAll(UserEntity.class);
     }
 }

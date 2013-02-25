@@ -18,11 +18,12 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public class FoursquareConnectionService {
+public class FoursquareConnectionService<T extends Foursquare> implements ConnectionService {
 
     @Autowired
     private FoursquareConnectionFactory factory;
 
+    @Override
     public String getAuthorizeUrl()
     {
         OAuth2Operations oauthOperations = factory.getOAuthOperations();
@@ -33,6 +34,7 @@ public class FoursquareConnectionService {
         return url;
     }
 
+    @Override
     public Connection<Foursquare> getConnection(String code)
     {
         OAuth2Operations oauthOperations = factory.getOAuthOperations();

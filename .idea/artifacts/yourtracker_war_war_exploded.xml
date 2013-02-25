@@ -8,6 +8,8 @@
           <element id="module-output" name="yourtracker-war" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.8.5" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.5" />
           <element id="archive" name="yourtracker-core-0.1-SNAPSHOT.jar">
             <element id="module-output" name="yourtracker-core" />
           </element>
@@ -25,11 +27,11 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-core:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
           <element id="archive" name="spring-social-mongo-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="spring-social-mongo" />
           </element>
-          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-core:1.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb:1.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons-core:1.2.1.RELEASE" />
@@ -45,9 +47,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.8.5" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.5" />
           <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-labs:1.3.8" />
+          <element id="archive" name="spring-social-instagram-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="spring-social-instagram" />
+          </element>
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.2.RELEASE" />

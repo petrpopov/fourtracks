@@ -3,6 +3,7 @@ package com.petrpopov.yourtracker.web;
 import com.petrpopov.yourtracker.security.web.LoginManager;
 import com.petrpopov.yourtracker.security.web.TracksRememberMeServices;
 import com.petrpopov.yourtracker.service.connection.FoursquareConnectionService;
+import com.petrpopov.yourtracker.service.connection.InstagramConnectionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.social.connect.Connection;
@@ -10,6 +11,7 @@ import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.connect.ConnectionSignUp;
 import org.springframework.social.connect.support.OAuth2Connection;
 import org.springframework.social.foursquare.api.Foursquare;
+import org.springframework.social.instagram.api.Instagram;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -32,6 +34,9 @@ public class SocialController  {
     private FoursquareConnectionService foursquareConnectionService;
 
     @Autowired
+    private InstagramConnectionService instagramConnectionService;
+
+    @Autowired
     private ConnectionRepository connectionRepository;
 
     @Autowired
@@ -45,7 +50,7 @@ public class SocialController  {
 
 
     @RequestMapping(value="/connect/foursquare", method= RequestMethod.POST)
-    public RedirectView connect() {
+    public RedirectView foursquareConnect() {
 
         String url = foursquareConnectionService.getAuthorizeUrl();
 
@@ -53,7 +58,7 @@ public class SocialController  {
     }
 
     @RequestMapping(value="/connect/foursquare", method=RequestMethod.GET, params="code")
-    public RedirectView callback(@RequestParam("code") String code, HttpServletRequest request, HttpServletResponse response)
+    public RedirectView foursquareCallback(@RequestParam("code") String code, HttpServletRequest request, HttpServletResponse response)
     {
         OAuth2Connection<Foursquare> connection = (OAuth2Connection<Foursquare>) foursquareConnectionService.getConnection(code);
 
@@ -80,12 +85,30 @@ public class SocialController  {
     }
 
     @RequestMapping(value="/logout", method=RequestMethod.DELETE)
-    public RedirectView logout(HttpServletRequest request, HttpServletResponse response) {
+    public RedirectView foursquareLogout(HttpServletRequest request, HttpServletResponse response) {
 
         connectionRepository.removeConnections("foursquare");
 
         loginManager.logout(request, response);
 
         return new RedirectView("/index", true);
+    }
+
+
+    @RequestMapping(value="/connect/instagram", method= RequestMethod.POST)
+    public RedirectView instagramConnect() {
+
+        String url = instagramConnectionService.getAuthorizeUrl();
+
+        return new RedirectView(url);
+    }
+
+    @RequestMapping(value="/connect/instagram", method=RequestMethod.GET, params="code")
+    public RedirectView instagramCallback(@RequestParam("code") String code, HttpServletRequest request, HttpServletResponse response) {
+
+        OAuth2Connection<Instagram> connection = (OAuth2Connection<Instagram>) instagramConnectionService.getConnection(code);
+        connectionRepository.addConnection(connection);
+
+        return new RedirectView("/dashboard", true);
     }
 }

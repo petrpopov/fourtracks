@@ -19,7 +19,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
-    <title>Your photo tracker</title>
+    <title>Photo Tracker</title>
 
     <!-- Bootstrap -->
     <link href="<s:url value="/resources" />/css/bootstrap.min.css"
@@ -38,7 +38,9 @@
 <body>
     <!--script src="http://code.jquery.com/jquery-latest.js"></script-->
     <script src="<s:url value="/resources"/>/js/jquery.min.js"></script>
+    <script src="<s:url value="/resources"/>/js/jquery.cookie.js"></script>
     <script src="<s:url value="/resources"/>/js/bootstrap.min.js"></script>
+    <script src="<s:url value="/resources"/>/js/route.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
                 'callback=initialize&key=AIzaSyAPyzaju1hxPGw9VhKl9iaW01OIB6q_rA0" type="text/javascript"></script>
 

@@ -59,6 +59,11 @@ public class TracksRememberMeServices extends TokenBasedRememberMeServices {
         cookie.setPath(getCookiePath(request));
 
         response.addCookie(cookie);
+
+        Cookie name = new Cookie("name", tokens[0]);
+        name.setMaxAge(maxAge);
+        name.setPath(getCookiePath(request));
+        response.addCookie(name);
     }
 
 
@@ -154,6 +159,12 @@ public class TracksRememberMeServices extends TokenBasedRememberMeServices {
         cookie.setPath(getCookiePath(request));
 
         response.addCookie(cookie);
+
+        Cookie name = new Cookie("name", null);
+        name.setMaxAge(0);
+        name.setPath(getCookiePath(request));
+
+        response.addCookie(cookie);
     }
 
     private String getCookiePath(HttpServletRequest request) {
@@ -163,5 +174,9 @@ public class TracksRememberMeServices extends TokenBasedRememberMeServices {
 
     public void setCookieName(String cookieName) {
         this.cookieName = cookieName;
+    }
+
+    public String getCookieName() {
+        return cookieName;
     }
 }

@@ -1,12 +1,18 @@
 package org.springframework.social.foursquare.api;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
+@Document
 @JsonIgnoreProperties({"likes", "posts", "entities"})
 public class Checkin {
-	
+
+    @Id
+    private String mongoid;
+
 	private String id;
 	private FoursquareUser user;
 	private Date createdAt;
@@ -20,6 +26,7 @@ public class Checkin {
 	private CheckinSource source;
 	private CheckinCommentInfo comments;
     private boolean like;
+    private String username;
 
     public Checkin() {
     }
@@ -37,9 +44,15 @@ public class Checkin {
 		this.comments = comments;
 	}
 
+    public String getMongoid() {
+        return mongoid;
+    }
 
+    public void setMongoid(String mongoid) {
+        this.mongoid = mongoid;
+    }
 
-	public String getId() {
+    public String getId() {
 		return id;
 	}
 	
@@ -101,5 +114,13 @@ public class Checkin {
 
     public void setLike(boolean like) {
         this.like = like;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }

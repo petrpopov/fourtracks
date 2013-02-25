@@ -1,6 +1,7 @@
 package com.petrpopov.yourtracker.config;
 
 import com.petrpopov.yourtracker.service.connection.FoursquareDefaultBean;
+import com.petrpopov.yourtracker.service.connection.InstagramDefaultBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +16,8 @@ import org.springframework.social.connect.mongo.MongoUsersConnectionRepository;
 import org.springframework.social.connect.support.ConnectionFactoryRegistry;
 import org.springframework.social.foursquare.api.Foursquare;
 import org.springframework.social.foursquare.connect.FoursquareConnectionFactory;
+import org.springframework.social.instagram.api.Instagram;
+import org.springframework.social.instagram.connect.InstagramConnectionFactory;
 
 /**
  * User: petrpopov
@@ -42,6 +45,9 @@ public class SocialConfig {
         FoursquareConnectionFactory factory = new FoursquareConnectionFactory(AppSettings.CLIENT_ID, AppSettings.CLIENT_SECRET);
         registry.addConnectionFactory(factory);
 
+        InstagramConnectionFactory instaFactory = new InstagramConnectionFactory(AppSettings.INSTAGRAM_CLIENT_ID, AppSettings.INSTAGRAM_CLIENT_SECRET);
+        registry.addConnectionFactory(instaFactory);
+
         return registry;
     }
 
@@ -49,6 +55,12 @@ public class SocialConfig {
     public FoursquareConnectionFactory foursquareConnectionFactory()
     {
         FoursquareConnectionFactory factory = (FoursquareConnectionFactory) connectionFactoryLocator().getConnectionFactory(Foursquare.class);
+        return factory;
+    }
+
+    @Bean
+    public InstagramConnectionFactory instagramConnectionFactory() {
+        InstagramConnectionFactory factory = (InstagramConnectionFactory) connectionFactoryLocator().getConnectionFactory(Instagram.class);
         return factory;
     }
 
@@ -87,6 +99,21 @@ public class SocialConfig {
         }
         catch (Exception e) {
             return new FoursquareDefaultBean();
+        }
+    }
+
+    @Bean
+    @Scope(value="request", proxyMode=ScopedProxyMode.INTERFACES)
+    public Instagram instagram() {
+
+        ConnectionRepository repo = connectionRepository();
+        try {
+            Connection<Instagram> connection = repo.getPrimaryConnection(Instagram.class);
+            Instagram api = connection.getApi();
+            return api;
+        }
+        catch (Exception e) {
+            return new InstagramDefaultBean();
         }
     }
 

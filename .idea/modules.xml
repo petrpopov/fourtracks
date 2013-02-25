@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-social-foursquare/spring-social-foursquare.iml" filepath="$PROJECT_DIR$/spring-social-foursquare/spring-social-foursquare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-social-instagram/spring-social-instagram.iml" filepath="$PROJECT_DIR$/spring-social-instagram/spring-social-instagram.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-social-mongo/spring-social-mongo.iml" filepath="$PROJECT_DIR$/spring-social-mongo/spring-social-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/yourtracker.iml" filepath="$PROJECT_DIR$/yourtracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" filepath="$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" />

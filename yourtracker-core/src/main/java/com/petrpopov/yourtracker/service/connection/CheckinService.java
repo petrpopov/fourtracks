@@ -2,6 +2,9 @@ package com.petrpopov.yourtracker.service.connection;
 
 import com.petrpopov.yourtracker.entity.CheckinEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.social.connect.Connection;
+import org.springframework.social.connect.ConnectionRepository;
+import org.springframework.social.connect.UsersConnectionRepository;
 import org.springframework.social.foursquare.api.Checkin;
 import org.springframework.social.foursquare.api.CheckinInfo;
 import org.springframework.social.foursquare.api.Foursquare;
@@ -25,20 +28,21 @@ public class CheckinService {
     @Autowired
     private Foursquare api;
 
+    @Autowired
+    private UsersConnectionRepository repository;
+
     public CheckinInfo getAllCheckins() {
-
-        CheckinInfo c = api.userOperations().getCheckins(1,0);
-        int totalCount = c.getCount();
-
-        CheckinInfo checkins = new CheckinInfo();
-
-        int count = totalCount / FETCH_SIZE;
-        for(int i = 0; i <= count; i++) {
-            addCheckins(checkins, i*FETCH_SIZE);
-        }
-
-        return checkins;
+        return getAllCheckinsByApi(api);
     }
+
+    public CheckinInfo getAllCheckinsByUser(String userId) {
+        ConnectionRepository connectionRepository = repository.createConnectionRepository(userId);
+        Connection<Foursquare> connection = connectionRepository.getPrimaryConnection(Foursquare.class);
+        Foursquare api1 = connection.getApi();
+
+        return getAllCheckinsByApi(api1);
+    }
+
 
     public List<CheckinEntity> getAllCheckinEntities() {
 
@@ -55,7 +59,7 @@ public class CheckinService {
         return res;
     }
 
-    public CheckinEntity getCheckinEntityFromCheckin(Checkin checkin) {
+    private CheckinEntity getCheckinEntityFromCheckin(Checkin checkin) {
 
         CheckinEntity entity = new CheckinEntity();
 
@@ -72,7 +76,7 @@ public class CheckinService {
         return entity;
     }
 
-    private CheckinInfo addCheckins(CheckinInfo checkins, int offset) {
+    private CheckinInfo getCheckinsForOffset(CheckinInfo checkins, int offset) {
         CheckinInfo t = api.userOperations().getCheckins(FETCH_SIZE, offset);
 
         if(t == null)
@@ -80,6 +84,21 @@ public class CheckinService {
 
         checkins.setCount( checkins.getItems().size() + t.getItems().size() );
         checkins.getItems().addAll(t.getItems());
+
+        return checkins;
+    }
+
+    private CheckinInfo getAllCheckinsByApi(Foursquare api) {
+
+        CheckinInfo c = api.userOperations().getCheckins(1,0);
+        int totalCount = c.getCount();
+
+        CheckinInfo checkins = new CheckinInfo();
+
+        int count = totalCount / FETCH_SIZE;
+        for(int i = 0; i <= count; i++) {
+            getCheckinsForOffset(checkins, i * FETCH_SIZE);
+        }
 
         return checkins;
     }

@@ -16,8 +16,10 @@
     
     <properties>
         <spring.version>3.1.1.RELEASE</spring.version>
+        <spring.social.version>1.0.2.RELEASE</spring.social.version>
         <spring.social.mongo.version>1.0.0-SNAPSHOT</spring.social.mongo.version>
         <spring.social.foursquare.version>1.0.8-RELEASE</spring.social.foursquare.version>
+        <spring.social.instagram.version>1.0.0-SNAPSHOT</spring.social.instagram.version>
         <spring-data-mongodb>1.0.4.RELEASE</spring-data-mongodb>
         <mongo.version>2.9.3</mongo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -91,6 +93,12 @@
 
         <!-- Spring Social starts -->
         <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-core</artifactId>
+            <version>${spring.social.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>spring-social-mongo</groupId>
             <artifactId>spring-social-mongo</artifactId>
             <version>${spring.social.mongo.version}</version>
@@ -100,6 +108,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-social-foursquare</artifactId>
             <version>${spring.social.foursquare.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-social-instagram</artifactId>
+            <version>${spring.social.instagram.version}</version>
         </dependency>
 
         <dependency>

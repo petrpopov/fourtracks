@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7ddf947-a71f-4341-9b1c-29b48b7c5ed5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/AbstractInstagramApiTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramResponseContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Caption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/CaptionMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yourtracker-war/src/main/java/com/petrpopov/yourtracker/rest/CheckinController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/CommentList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/CommentMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/CommentsInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/CommentsInfoMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Image.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/ImageMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Instagram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/connect/InstagramAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/InstagramApiException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/connect/InstagramConnectionFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramDateDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramErrorHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/connect/InstagramOAuth2Template.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/InstagramProfile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileContainerDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/connect/InstagramServiceProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/InstagramTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/InstagramTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/LikesInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/LikesInfoMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/LocationContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/LocationList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/LocationMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/LocationOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/LocationTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/LocationTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_core_1_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_test_1_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Media.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/MediaContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/MediaContainerDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/MediaList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/MediaMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/MediaOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/MediaTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/MediaTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/PagedMediaList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/PagedMediaListMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Pagination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/PaginationMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Relationship.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/RelationshipContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/RelationshipContainerDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/RelationshipMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Tag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/TagContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/TagContainerDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/TagList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/TagMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/TagOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/TagTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/TagTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/UserOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/UserTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/UserTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/comment-list.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/error-response.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/location-search.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/location.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/media-list.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/media.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/ok-response.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/impl/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/connect/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/recent-media.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/relationship.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yourtracker-war/src/main/webapp/resources/js/route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/tag-search.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/tag.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/user-list.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/testdata/user-profile.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/ApiRequestResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/CheckinCustom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/CheckinInfoContainerCustom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/CheckinInfoContainerDeserializerCustom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/CheckinInfoCustom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/custom/VenueCustom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-core/target/classes/com/petrpopov/yourtracker/beans/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-core/target/classes/com/petrpopov/yourtracker/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/AuthProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/FoursquareConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/FoursquareDefaultBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/FoursquareService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/LoginManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MyInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MyRememberFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MyRememberMeServices.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MyTextEncryptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/MyUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/SocialConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/UserAssembler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/UserFildService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/security/UsernameAuthenticationTokenService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/CallbackController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/ProfileController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/AuthProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/FoursquareConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/FoursquareDefaultBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/FoursquareService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/LoginManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MongoAccountConnectionSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MyInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MyRememberFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MyRememberMeServices.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MyTextEncryptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/MyUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/SocialConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/UserAssembler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/UserFildService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/security/UsernameAuthenticationTokenService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/CallbackController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/ProfileController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/appengine-api-1.0-sdk-1.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/foursquare-api-1.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.8.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.8.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/javaee-api-6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/json-20090211.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/profile.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" afterPath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinStorageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserEntityService.java" afterPath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserStorageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/AbstractFoursquareApiTest.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/AbstractFoursquareApiTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/json/AbstractFoursquareDeserializer.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/json/AbstractFoursquareDeserializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-core/target/classes/com/petrpopov/yourtracker/config/AppSettings.class" afterPath="$PROJECT_DIR$/../yourtracker-core/target/classes/com/petrpopov/yourtracker/config/AppSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Badge.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Badge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeGroup.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeImage.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeImage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeSets.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeSets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeUnlocks.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgeUnlocks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgesResponse.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/BadgesResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Category.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Checkin.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Checkin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinComment.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinCommentInfo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinCommentInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinInfo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/json/CheckinInfoContainerDeserializer.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/json/CheckinInfoContainerDeserializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinSource.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/CheckinSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/ContactInfo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/ContactInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/ExploreResponse.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/ExploreResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/connect/FoursquareAdapter.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/connect/FoursquareAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FoursquareUser.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FoursquareUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FoursquareUserGroup.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FoursquareUserGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FriendInfo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/FriendInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Friends.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Friends.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/HereNow.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/HereNow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Keyword.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Keywords.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Keywords.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Leaderboard.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Leaderboard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/LeaderboardItem.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/LeaderboardItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Location.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Location.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/LoginController.class" afterPath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/LoginController.class" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/MayorshipInfo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/MayorshipInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Photo.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Photo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoGroup.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoGroups.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoGroups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSize.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSizes.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSizes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSource.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/PhotoSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Photos.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/SocialController.class" afterPath="$PROJECT_DIR$/../yourtracker-war/target/classes/com/petrpopov/yourtracker/web/SocialController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/SocialController.class" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/com/petrpopov/yourtracker/web/SocialController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/UserOperations.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/UserOperations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/UserTemplate.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/impl/UserTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/UserTemplateTest.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/UserTemplateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Venue.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/Venue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/VenueStats.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/VenueStats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/VenueTemplateTest.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/test-classes/org/springframework/social/foursquare/api/impl/VenueTemplateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/VenueTips.class" afterPath="$PROJECT_DIR$/../spring-social-foursquare/target/classes/org/springframework/social/foursquare/api/VenueTips.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/spring-social-foursquare-1.0.8-RELEASE.jar" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/spring-social-foursquare-1.0.8-RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/spring-social-mongo-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/spring-social-mongo-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/yourtracker-core-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/lib/yourtracker-core-0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" afterPath="$PROJECT_DIR$/../spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" afterPath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" afterPath="$PROJECT_DIR$/../yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java" afterPath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" afterPath="$PROJECT_DIR$/../yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/classes/config.properties" afterPath="$PROJECT_DIR$/../yourtracker-war/target/classes/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/config.properties" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/classes/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" afterPath="$PROJECT_DIR$/../yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/header.jsp" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" afterPath="$PROJECT_DIR$/../yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/main_template.jsp" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/main_template.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/pom.xml" afterPath="$PROJECT_DIR$/../spring-social-foursquare/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-mongo/pom.xml" afterPath="$PROJECT_DIR$/../spring-social-mongo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/pom.xml" afterPath="$PROJECT_DIR$/../yourtracker-war/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-social-foursquare/spring-social-foursquare.iml" afterPath="$PROJECT_DIR$/../spring-social-foursquare/spring-social-foursquare.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/resources/css/style.css" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/views.xml" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/views/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/yourtracker-servlet.xml" afterPath="$PROJECT_DIR$/../yourtracker-war/target/yourtracker-war-0.1-SNAPSHOT/WEB-INF/yourtracker-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yourtracker-war/yourtracker-war.iml" afterPath="$PROJECT_DIR$/../yourtracker-war/yourtracker-war.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/artifacts/yourtracker_war_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/yourtracker_war_war_exploded.xml" />
+    </list>
+    <ignored path="spring-social-instagram.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="a7ddf947-a71f-4341-9b1c-29b48b7c5ed5" time="1361798181321" ignored="false" />
+    <file path="/pom.xml" changelist="a7ddf947-a71f-4341-9b1c-29b48b7c5ed5" time="1361798476218" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring-social-instagram" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="21" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.95957446">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTemplateTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/UserTemplateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Caption.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Caption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractInstagramApiTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/AbstractInstagramApiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-instagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7ddf947-a71f-4341-9b1c-29b48b7c5ed5" name="Default" comment="" />
+      <created>1361798165776</created>
+      <updated>1361798165776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1088" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/instagram/api/Caption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/AbstractInstagramApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/instagram/api/impl/UserTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="21" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.95957446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

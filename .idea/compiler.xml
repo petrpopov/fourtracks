@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spring-social-foursquare" />
+        <module name="spring-social-instagram" />
         <module name="spring-social-mongo" />
         <module name="yourtracker-core" />
         <module name="yourtracker-war" />

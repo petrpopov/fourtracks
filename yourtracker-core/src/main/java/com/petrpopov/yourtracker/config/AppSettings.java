@@ -28,6 +28,10 @@ public class AppSettings {
             CLIENT_SECRET = properties.getProperty("client_secret");
             CALLBACK_URL = properties.getProperty("callback_url");
 
+            INSTAGRAM_CLIENT_ID = properties.getProperty("instagram_client_id");
+            INSTAGRAM_CLIENT_SECRET = properties.getProperty("instagram_client_secret");
+            INSTAGRAM_CALLBACK_URL = properties.getProperty("instagram_url");
+
             MONGODB_HOST = properties.getProperty("mongodb_host");
             MONGODB_DB = properties.getProperty("mongodb_db");
 
@@ -52,6 +56,9 @@ public class AppSettings {
     public static String CLIENT_ID;
     public static String CLIENT_SECRET;
     public static String CALLBACK_URL;
+    public static String INSTAGRAM_CLIENT_ID;
+    public static String INSTAGRAM_CLIENT_SECRET;
+    public static String INSTAGRAM_CALLBACK_URL;
     public static String MONGODB_HOST;
     public static String MONGODB_DB;
     public static boolean OMIT_EMPTY_CHECKINS;

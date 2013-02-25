@@ -37,6 +37,13 @@
                     </a>
                 </form>
 
+
+                <form class="navbar-form pull-left" action="<c:url value="/connect/instagram" />" method="POST">
+                    <a class="btn btn-inverse" onclick="$(this).closest('form').submit()">
+                        <img src="<s:url value="/resources"/>/img/instagram.png" />
+                    </a>
+                </form>
+
                 <form class="navbar-form pull-left" action="<c:url value="/logout" />" method="POST">
                     <button type="submit">Disconnect</button>
                     <input type="hidden" name="_method" value="delete" />

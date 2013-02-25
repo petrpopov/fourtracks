@@ -45,6 +45,8 @@
             <version>1.0.4.RELEASE</version>
         </dependency>
 
+
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
