@@ -25,7 +25,7 @@ http://www.springframework.org/schema/security/spring-security-3.1.xsd">
         <intercept-url pattern="/login" access="permitAll"/>
         <!--intercept-url pattern="/profile*" access="hasRole('ROLE_USER')" /-->
 
-        <custom-filter ref="myRememberFilter" position="REMEMBER_ME_FILTER"/>
+        <custom-filter ref="tracksRememberFilter" position="REMEMBER_ME_FILTER"/>
 
     </http>
 
@@ -35,9 +35,9 @@ http://www.springframework.org/schema/security/spring-security-3.1.xsd">
 
     <global-method-security secured-annotations="enabled" jsr250-annotations="enabled" pre-post-annotations="enabled"/>
 
-    <beans:bean id="myRememberMeServices" class="com.petrpopov.yourtracker.security.MyRememberMeServices">
+    <beans:bean id="tracksRememberMeServices" class="com.petrpopov.yourtracker.security.web.TracksRememberMeServices">
         <beans:constructor-arg name="key" value="yourtracker"/>
-        <beans:constructor-arg name="userDetailsService" ref="myUserDetailsService"/>
+        <beans:constructor-arg name="userDetailsService" ref="tracksUserDetailsService"/>
         <beans:property name="alwaysRemember" value="true"/>
         <beans:property name="cookieName" value="YOURTRACKER"/>
         <beans:property name="tokenValiditySeconds" value="2419200"/>

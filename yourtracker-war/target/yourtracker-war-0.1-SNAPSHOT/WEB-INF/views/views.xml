@@ -12,8 +12,8 @@
         <put-attribute name="content" value="/WEB-INF/views/home.jsp" />
     </definition>
 
-    <definition name="profile" extends="main">
-        <put-attribute name="content" value="/WEB-INF/views/profile.jsp" />
+    <definition name="dashboard" extends="main">
+        <put-attribute name="content" value="/WEB-INF/views/dashboard.jsp" />
     </definition>
 
     <definition name="login" extends="main">

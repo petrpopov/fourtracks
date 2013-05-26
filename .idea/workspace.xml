@@ -1,164 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="some js">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/img/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/AbstractInstagramApiTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/AbstractInstagramResponseContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Caption.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/CaptionMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/rest/CheckinController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/CommentList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/CommentMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/CommentsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/CommentsInfoMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/ConnectionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Image.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/ImageMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Instagram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/connect/InstagramAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/InstagramApiException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/connect/InstagramConnectionFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/InstagramConnectionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramDateDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/InstagramDefaultBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/connect/InstagramOAuth2Template.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/InstagramProfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileContainerDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramProfileMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/connect/InstagramServiceProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/InstagramTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/InstagramTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/LikesInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/LikesInfoMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/LocationContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/LocationList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/LocationMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/LocationOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/LocationTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/LocationTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__junit_junit_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_mockito_mockito_all_1_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_social_spring_social_core_1_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_social_spring_social_test_1_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_asm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_beans_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_context_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_core_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_expression_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/libraries/Maven__org_springframework_spring_web_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Media.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/MediaContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/MediaContainerDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/MediaList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/MediaMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/MediaOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/MediaTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/MediaTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/PagedMediaList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/PagedMediaListMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Pagination.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/PaginationMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Relationship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/RelationshipContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/RelationshipContainerDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/RelationshipMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/Tag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/TagContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/TagContainerDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/TagList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/TagMixin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/TagOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/TagTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/TagTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/UserOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/UserTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/UserTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/logic/UserUpdateService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/comment-list.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/error-response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/location-search.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/location.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/media-list.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/media.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/ok-response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/api/impl/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/main/java/org/springframework/social/instagram/connect/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/recent-media.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/relationship.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/js/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/spring-social-instagram.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/tag-search.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/tag.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/user-list.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/src/test/java/org/springframework/social/instagram/api/impl/testdata/user-profile.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-instagram/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinEntityService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/CheckinStorageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserEntityService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserStorageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" afterPath="$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/CheckinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareConnectionService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/FoursquareConnectionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/connection/MongoAccountConnectionSignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/SocialController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberMeServices.java" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/TracksRememberMeServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" afterPath="$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/security/core/TracksUserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/dashboard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/header.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/views/main_template.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/pom.xml" afterPath="$PROJECT_DIR$/spring-social-foursquare/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-mongo/pom.xml" afterPath="$PROJECT_DIR$/spring-social-mongo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/pom.xml" afterPath="$PROJECT_DIR$/yourtracker-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/pom.xml" afterPath="$PROJECT_DIR$/yourtracker-war/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-foursquare/spring-social-foursquare.iml" afterPath="$PROJECT_DIR$/spring-social-foursquare/spring-social-foursquare.iml" />
+    <list default="true" id="d5beff41-686a-46c7-bb9d-a5805f923f7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" afterPath="$PROJECT_DIR$/yourtracker-core/yourtracker-core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml" afterPath="$PROJECT_DIR$/yourtracker-war/src/main/webapp/WEB-INF/yourtracker-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yourtracker-war/yourtracker-war.iml" afterPath="$PROJECT_DIR$/yourtracker-war/yourtracker-war.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/yourtracker_war_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/yourtracker_war_war_exploded.xml" />
     </list>
     <ignored path="yourtracker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361799354899" ignored="false" />
+    <file path="/pom.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362326320564" ignored="false" />
     <file path="/yourtracker.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360942675784" ignored="false" />
     <file path="/web.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361708565405" ignored="false" />
     <file path="/log4j.properties" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360601472818" ignored="false" />
@@ -175,11 +23,11 @@
     <file path="/header.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361800918300" ignored="false" />
     <file path="/signin.jsp" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360931267595" ignored="false" />
     <file path="/LoginController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361800531594" ignored="false" />
-    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361798181520" ignored="false" />
-    <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361709729020" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362343987522" ignored="false" />
+    <file path="/fragment.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362331300397" ignored="false" />
     <file path="/FsApiManager.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360650642589" ignored="false" />
     <file path="/AppSettings.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361798895011" ignored="false" />
-    <file path="/InitBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360671147275" ignored="false" />
+    <file path="/InitBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362331876999" ignored="false" />
     <file path="/CallbackController.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360916618816" ignored="false" />
     <file path="/SpringMongoConfig.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360671267670" ignored="false" />
     <file path="/User.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1360675408180" ignored="false" />
@@ -280,6 +128,45 @@
     <file path="/FoursquareUserService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361810052258" ignored="false" />
     <file path="/UserUpdateService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361815398283" ignored="false" />
     <file path="/UserStorageService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1361814032885" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/.idea/workspace.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362326414009" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/.idea/misc.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362323982233" ignored="false" />
+    <file path="/map.js" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362383065866" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/js/map.js" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362326063703" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/index.html" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362324922422" ignored="false" />
+    <file path="/index.html" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362383551499" ignored="false" />
+    <file path="$PROJECT_DIR$/../glassfish-tst/pom.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362326330338" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/service/InitBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362330997662" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/service/InitBean.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362337164253" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/resources/data/metro.json" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362334942968" ignored="false" />
+    <file path="/metro.json" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362334594339" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/pom.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362331781986" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/service/DataReader.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362335007800" ignored="false" />
+    <file path="/DataReader.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362337158885" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/model/Station.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362332271569" ignored="false" />
+    <file path="/Station.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362332255709" ignored="false" />
+    <file path="/Line.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362332288905" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/model/Line.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362332298746" ignored="false" />
+    <file path="/MetroService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362340986479" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/rest/MetroService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362336708109" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/service/MetroReader.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362337158885" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/webapp/index.html" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362383553821" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/webapp/js/map.js" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362383479428" ignored="false" />
+    <file path="/MetroReader.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362336719509" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/rest/MetroWebService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362341106043" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/webapp/WEB-INF/web.xml" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362337087780" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/service/MetroService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362341243361" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/service/DistanceService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362342379975" ignored="false" />
+    <file path="/DistanceService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362342178612" ignored="false" />
+    <file path="/MetroWebService.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362341103228" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/model/GeoPosition.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362340008598" ignored="false" />
+    <file path="/GeoPosition.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362338939735" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/model/StationDistance.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362340501332" ignored="false" />
+    <file path="/StationDistance.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362340188590" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/java/com/petrpopov/firstwagon/model/Exit.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362343915754" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/README.md" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362343521589" ignored="false" />
+    <file path="/README.md" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362343520805" ignored="false" />
+    <file path="/Exit.java" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362343902048" ignored="false" />
+    <file path="$PROJECT_DIR$/../firstwagon/src/main/webapp/css/style.css" changelist="d5beff41-686a-46c7-bb9d-a5805f923f7e" time="1362383470990" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,8 +223,8 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -350,19 +237,37 @@
       <file leaf-file-name="DashboardController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="10" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
+            <state line="36" column="10" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserUpdateService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserUpdateService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/logic/UserUpdateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="27" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.8173077">
+            <state line="13" column="3" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/InitBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="24" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppSettings.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="309" selection-end="309" vertical-scroll-proportion="0.24595469">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -389,9 +294,7 @@
         <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="67" column="36" selection-start="2636" selection-end="2661" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -400,9 +303,7 @@
         <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/security/web/LoginManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="51" column="42" selection-start="1938" selection-end="1972" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -411,9 +312,7 @@
         <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/rest/CheckinController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="40" column="56" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -481,7 +380,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -498,6 +397,9 @@
           </State>
           <State>
             <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
           </State>
           <State>
             <id>Class metrics</id>
@@ -590,6 +492,9 @@
             <id>Probable bugsJavaScript</id>
           </State>
           <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
             <id>Security issues</id>
           </State>
           <State>
@@ -604,7 +509,18 @@
           <State>
             <id>Threading issuesGroovy</id>
           </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -636,7 +552,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -844,10 +760,6 @@
               <option name="myItemId" value="yourtracker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -876,6 +788,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1121,6 +1037,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yourtracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spring-social-instagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1141,7 +1091,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1149,19 +1099,19 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-samples/petclinic/trunk/petclinic.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstwagon" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1211,19 +1161,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1250,6 +1187,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1483,7 +1433,11 @@
       <created>1361610685632</created>
       <updated>1361610685633</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rest service, some libs and i don;t fucking remember whatever else">
+      <created>1361815451699</created>
+      <updated>1361815451699</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1507,13 +1461,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1098" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32541323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1524,20 +1477,21 @@
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3205394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32783505" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.5435685" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.5435685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43987668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5426516" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32541323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3205394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1579,7 +1533,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="some js" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest service, some libs and i don;t fucking remember whatever else" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1596,6 +1550,7 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="save checkins" />
     <MESSAGE value="some js" />
+    <MESSAGE value="rest service, some libs and i don;t fucking remember whatever else" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1610,34 +1565,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/CheckinInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/api/Checkin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="484" selection-end="489" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/java/com/petrpopov/yourtracker/web/DashboardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="10" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar!/org/springframework/scheduling/config/spring-task-3.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE-sources.jar!/org/springframework/scheduling/annotation/Scheduled.java">
@@ -1649,9 +1579,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar!/org/springframework/scheduling/config/spring-task-3.1.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/mongo/UserStorageService.java">
@@ -1667,7 +1595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="9" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.45192307">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1681,38 +1609,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-social-mongo/src/main/java/org/springframework/social/connect/mongo/MongoConnectionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="26" selection-start="7796" selection-end="7796" vertical-scroll-proportion="3.0394304">
-          <folding />
-        </state>
+        <state line="228" column="26" selection-start="7796" selection-end="7796" vertical-scroll-proportion="3.0394304" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-core/1.0.2.RELEASE/spring-social-core-1.0.2.RELEASE-sources.jar!/org/springframework/social/connect/ConnectionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="5528" selection-end="5528" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="105" column="0" selection-start="5528" selection-end="5528" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-core/1.0.2.RELEASE/spring-social-core-1.0.2.RELEASE-sources.jar!/org/springframework/social/connect/UsersConnectionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.25333333">
-          <folding />
-        </state>
+        <state line="27" column="17" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.25333333" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-social-foursquare/src/main/java/org/springframework/social/foursquare/connect/FoursquareConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.08324206">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.08324206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/SocialConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="36" selection-start="2636" selection-end="2661" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1723,12 +1641,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-war/src/main/webapp/resources/js/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/service/logic/UserUpdateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="27" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.8173077">
+        <state line="13" column="3" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/InitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yourtracker-core/src/main/java/com/petrpopov/yourtracker/config/AppSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="309" selection-end="309" vertical-scroll-proportion="0.24595469">
+          <folding />
         </state>
       </provider>
     </entry>

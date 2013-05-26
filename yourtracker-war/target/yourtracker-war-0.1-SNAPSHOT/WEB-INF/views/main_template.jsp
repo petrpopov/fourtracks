@@ -16,8 +16,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="UTF-8"></meta>
-    <title>Your photo tracker</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <title>Photo Tracker</title>
 
     <!-- Bootstrap -->
     <link href="<s:url value="/resources" />/css/bootstrap.min.css"
@@ -34,11 +36,15 @@
           type="text/css"/>
 </head>
 <body>
-<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
-<script src="<s:url value="/resources"/>/js/jquery.min.js"></script>
-<script src="<s:url value="/resources"/>/js/bootstrap.min.js"></script>
+    <!--script src="http://code.jquery.com/jquery-latest.js"></script-->
+    <script src="<s:url value="/resources"/>/js/jquery.min.js"></script>
+    <script src="<s:url value="/resources"/>/js/jquery.cookie.js"></script>
+    <script src="<s:url value="/resources"/>/js/bootstrap.min.js"></script>
+    <script src="<s:url value="/resources"/>/js/route.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+                'callback=initialize&key=AIzaSyAPyzaju1hxPGw9VhKl9iaW01OIB6q_rA0" type="text/javascript"></script>
 
-        <t:insertAttribute name="header" />
+    <t:insertAttribute name="header" />
 
 
     <div id="content">
